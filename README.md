@@ -62,6 +62,11 @@
 | [第 8 章第 3 讲：路径积分公式和作用量相位](docs/lessons/08-path-integral-formulation/08-03-path-integral-action-phase.md) | 路径积分公式、作用量、相位 |
 | [第 8 章第 4 讲：经典路径如何从相位相干中出现](docs/lessons/08-path-integral-formulation/08-04-classical-path-stationary-phase.md) | 驻相、经典路径、相位抵消 |
 | [第 8 章第 5 讲：自由粒子例子和与薛定谔表述的关系](docs/lessons/08-path-integral-formulation/08-05-free-particle-and-schrodinger-equivalence.md) | 自由粒子传播子、等价表述 |
+| [第 9 章第 1 讲：平均值、方差和不确定度](docs/lessons/09-heisenberg-uncertainty/09-01-expectation-variance-uncertainty.md) | 平均值、方差、不确定度 |
+| [第 9 章第 2 讲：波包直觉，为什么越局域动量越分散](docs/lessons/09-heisenberg-uncertainty/09-02-wave-packet-localization-momentum-spread.md) | 波包、Fourier 直觉、动量分散 |
+| [第 9 章第 3 讲：一般不确定性关系和对易子](docs/lessons/09-heisenberg-uncertainty/09-03-general-uncertainty-commutator.md) | 一般不确定性、对易子 |
+| [第 9 章第 4 讲：位置动量不确定性关系](docs/lessons/09-heisenberg-uncertainty/09-04-position-momentum-uncertainty.md) | 位置动量、基本对易关系 |
+| [第 9 章第 5 讲：常见误解、物理意义和应用](docs/lessons/09-heisenberg-uncertainty/09-05-misconceptions-meaning-applications.md) | 误解澄清、零点能、量子态结构 |
 
 ## 教学原则
 
@@ -122,7 +127,8 @@
 | [06-classical-limit.md](docs/chapters/06-classical-limit.md) | 细讲版；逐讲版 4/4 完成 |
 | [07-harmonic-oscillator.md](docs/chapters/07-harmonic-oscillator.md) | 细讲版；逐讲版 5/5 完成 |
 | [08-path-integral-formulation.md](docs/chapters/08-path-integral-formulation.md) | 细讲版；逐讲版 5/5 完成 |
-| 第 9-21 章 | 导学提纲，待逐章扩写 |
+| [09-heisenberg-uncertainty.md](docs/chapters/09-heisenberg-uncertainty.md) | 细讲版；逐讲版 5/5 完成 |
+| 第 10-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
