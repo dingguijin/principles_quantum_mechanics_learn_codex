@@ -18,6 +18,7 @@
 | 讲义 | 主题 |
 | --- | --- |
 | [第 1 章第 1 讲：为什么量子态要看成向量](docs/lessons/01-mathematical-introduction/01-01-why-quantum-states-are-vectors.md) | 叠加、概率振幅、归一化、态矢量 |
+| [第 1 章第 2 讲：基底、坐标和展开](docs/lessons/01-mathematical-introduction/01-02-basis-coordinates-expansion.md) | 基底、坐标、换基底、表象 |
 
 ## 教学原则
 
