@@ -57,6 +57,11 @@
 | [第 7 章第 3 讲：升降算符和代数解法](docs/lessons/07-harmonic-oscillator/07-03-ladder-operators-algebraic-solution.md) | 升降算符、数算符、代数解法 |
 | [第 7 章第 4 讲：能级、零点能和基态波函数](docs/lessons/07-harmonic-oscillator/07-04-energy-levels-zero-point-ground-state.md) | 等间隔能级、零点能、基态 |
 | [第 7 章第 5 讲：数态、选择规则和谐振子为什么有用](docs/lessons/07-harmonic-oscillator/07-05-number-states-selection-rules-applications.md) | 数态、选择规则、应用 |
+| [第 8 章第 1 讲：为什么需要路径积分表述](docs/lessons/08-path-integral-formulation/08-01-why-path-integrals.md) | 路径积分动机、振幅求和、作用量 |
+| [第 8 章第 2 讲：传播子，量子演化的核函数](docs/lessons/08-path-integral-formulation/08-02-propagator-kernel.md) | 传播子、演化核、位置表象 |
+| [第 8 章第 3 讲：路径积分公式和作用量相位](docs/lessons/08-path-integral-formulation/08-03-path-integral-action-phase.md) | 路径积分公式、作用量、相位 |
+| [第 8 章第 4 讲：经典路径如何从相位相干中出现](docs/lessons/08-path-integral-formulation/08-04-classical-path-stationary-phase.md) | 驻相、经典路径、相位抵消 |
+| [第 8 章第 5 讲：自由粒子例子和与薛定谔表述的关系](docs/lessons/08-path-integral-formulation/08-05-free-particle-and-schrodinger-equivalence.md) | 自由粒子传播子、等价表述 |
 
 ## 教学原则
 
@@ -116,7 +121,8 @@
 | [05-simple-problems-one-dimension.md](docs/chapters/05-simple-problems-one-dimension.md) | 导学提纲；逐讲版 6/6 完成 |
 | [06-classical-limit.md](docs/chapters/06-classical-limit.md) | 细讲版；逐讲版 4/4 完成 |
 | [07-harmonic-oscillator.md](docs/chapters/07-harmonic-oscillator.md) | 细讲版；逐讲版 5/5 完成 |
-| 第 8-21 章 | 导学提纲，待逐章扩写 |
+| [08-path-integral-formulation.md](docs/chapters/08-path-integral-formulation.md) | 细讲版；逐讲版 5/5 完成 |
+| 第 9-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
