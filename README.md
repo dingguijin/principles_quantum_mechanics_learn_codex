@@ -37,6 +37,11 @@
 | [第 3 章第 5 讲：双缝干涉和电子的波动性](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-05-double-slit-electron-wave-nature.md) | 双缝、振幅叠加、相位 |
 | [第 3 章第 6 讲：德布罗意关系和波粒统一](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-06-de-broglie-relation-wave-particle-unity.md) | 德布罗意波长、物质波、波函数 |
 | [第 3 章第 7 讲：这些事实如何逼出量子公设](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-07-how-experiments-force-quantum-postulates.md) | 量子态、算符、本征值、概率规则 |
+| [第 4 章第 1 讲：态公设，系统状态为什么是 Hilbert 空间向量](docs/lessons/04-postulates-general-discussion/04-01-state-postulate-hilbert-space.md) | 态向量、归一化、Hilbert 空间 |
+| [第 4 章第 2 讲：观测量公设，为什么可观测量由厄米算符表示](docs/lessons/04-postulates-general-discussion/04-02-observables-hermitian-operators.md) | 厄米算符、本征值、观测量 |
+| [第 4 章第 3 讲：测量概率和 Born 规则](docs/lessons/04-postulates-general-discussion/04-03-measurement-probabilities-born-rule.md) | Born 规则、投影概率、模平方 |
+| [第 4 章第 4 讲：测量后的态，投影和塌缩](docs/lessons/04-postulates-general-discussion/04-04-state-after-measurement-collapse.md) | 测量后态、投影算符、塌缩 |
+| [第 4 章第 5 讲：时间演化和薛定谔方程](docs/lessons/04-postulates-general-discussion/04-05-time-evolution-schrodinger-equation.md) | 薛定谔方程、哈密顿算符、幺正演化 |
 
 ## 教学原则
 
@@ -92,7 +97,8 @@
 | [01-mathematical-introduction.md](docs/chapters/01-mathematical-introduction.md) | 细讲版；逐讲版 6/6 完成 |
 | [02-review-of-classical-mechanics.md](docs/chapters/02-review-of-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
 | [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
-| 第 4-21 章 | 导学提纲，待逐章扩写 |
+| [04-postulates-general-discussion.md](docs/chapters/04-postulates-general-discussion.md) | 导学提纲；逐讲版 5/5 完成 |
+| 第 5-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
