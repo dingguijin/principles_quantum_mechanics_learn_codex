@@ -23,6 +23,13 @@
 | [第 1 章第 4 讲：线性算符和矩阵](docs/lessons/01-mathematical-introduction/01-04-linear-operators-and-matrices.md) | 线性算符、矩阵元、对易子 |
 | [第 1 章第 5 讲：本征值、本征向量和测量预告](docs/lessons/01-mathematical-introduction/01-05-eigenvalues-eigenvectors-measurement-preview.md) | 本征值、本征向量、本征基底、测量结果 |
 | [第 1 章第 6 讲：厄米、幺正、投影和无限维推广](docs/lessons/01-mathematical-introduction/01-06-hermitian-unitary-projection-infinite-dimensional.md) | 厄米算符、幺正算符、投影、波函数 |
+| [第 2 章第 1 讲：位置、速度、动量、力和能量](docs/lessons/02-review-of-classical-mechanics/02-01-basic-physical-quantities.md) | 基础运动量、动量、力、能量 |
+| [第 2 章第 2 讲：牛顿形式，已知力如何求运动](docs/lessons/02-review-of-classical-mechanics/02-02-newtonian-form.md) | 牛顿方程、初始条件、势能和力 |
+| [第 2 章第 3 讲：从坐标 x 到广义坐标 q](docs/lessons/02-review-of-classical-mechanics/02-03-generalized-coordinates.md) | 广义坐标、自由度、约束 |
+| [第 2 章第 4 讲：拉格朗日量和 Euler-Lagrange 方程](docs/lessons/02-review-of-classical-mechanics/02-04-lagrangian-and-euler-lagrange-equation.md) | 拉格朗日量、Euler-Lagrange 方程 |
+| [第 2 章第 5 讲：作用量和驻作用量思想](docs/lessons/02-review-of-classical-mechanics/02-05-action-and-stationary-action.md) | 作用量、驻值、路径积分入口 |
+| [第 2 章第 6 讲：哈密顿量、正则动量和 Hamilton 方程](docs/lessons/02-review-of-classical-mechanics/02-06-hamiltonian-and-hamilton-equations.md) | 正则动量、哈密顿量、Hamilton 方程 |
+| [第 2 章第 7 讲：相空间、泊松括号和量子力学的入口](docs/lessons/02-review-of-classical-mechanics/02-07-phase-space-poisson-brackets-quantum-entry.md) | 相空间、泊松括号、对易子入口 |
 
 ## 教学原则
 
@@ -76,7 +83,7 @@
 | --- | --- |
 | [00-foundations.md](docs/00-foundations.md) | 细讲版 |
 | [01-mathematical-introduction.md](docs/chapters/01-mathematical-introduction.md) | 细讲版；逐讲版 6/6 完成 |
-| [02-review-of-classical-mechanics.md](docs/chapters/02-review-of-classical-mechanics.md) | 细讲版 |
+| [02-review-of-classical-mechanics.md](docs/chapters/02-review-of-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
 | [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版 |
 | 第 4-21 章 | 导学提纲，待逐章扩写 |
 
