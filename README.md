@@ -20,6 +20,9 @@
 | [第 1 章第 1 讲：为什么量子态要看成向量](docs/lessons/01-mathematical-introduction/01-01-why-quantum-states-are-vectors.md) | 叠加、概率振幅、归一化、态矢量 |
 | [第 1 章第 2 讲：基底、坐标和展开](docs/lessons/01-mathematical-introduction/01-02-basis-coordinates-expansion.md) | 基底、坐标、换基底、表象 |
 | [第 1 章第 3 讲：内积、长度、正交和归一化](docs/lessons/01-mathematical-introduction/01-03-inner-product-norm-orthogonality-normalization.md) | 内积、概率振幅、正交归一、归一化 |
+| [第 1 章第 4 讲：线性算符和矩阵](docs/lessons/01-mathematical-introduction/01-04-linear-operators-and-matrices.md) | 线性算符、矩阵元、对易子 |
+| [第 1 章第 5 讲：本征值、本征向量和测量预告](docs/lessons/01-mathematical-introduction/01-05-eigenvalues-eigenvectors-measurement-preview.md) | 本征值、本征向量、本征基底、测量结果 |
+| [第 1 章第 6 讲：厄米、幺正、投影和无限维推广](docs/lessons/01-mathematical-introduction/01-06-hermitian-unitary-projection-infinite-dimensional.md) | 厄米算符、幺正算符、投影、波函数 |
 
 ## 教学原则
 
@@ -72,7 +75,7 @@
 | 文件 | 状态 |
 | --- | --- |
 | [00-foundations.md](docs/00-foundations.md) | 细讲版 |
-| [01-mathematical-introduction.md](docs/chapters/01-mathematical-introduction.md) | 细讲版 |
+| [01-mathematical-introduction.md](docs/chapters/01-mathematical-introduction.md) | 细讲版；逐讲版 6/6 完成 |
 | [02-review-of-classical-mechanics.md](docs/chapters/02-review-of-classical-mechanics.md) | 细讲版 |
 | [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版 |
 | 第 4-21 章 | 导学提纲，待逐章扩写 |
