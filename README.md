@@ -48,6 +48,10 @@
 | [第 5 章第 4 讲：无限深势阱和能级量子化](docs/lessons/05-simple-problems-one-dimension/05-04-infinite-square-well-quantized-energy.md) | 无限深势阱、边界条件、离散能级 |
 | [第 5 章第 5 讲：有限势阱和束缚态](docs/lessons/05-simple-problems-one-dimension/05-05-finite-wells-bound-states.md) | 有限势阱、束缚态、散射态 |
 | [第 5 章第 6 讲：边界条件、归一化和一维问题总复习](docs/lessons/05-simple-problems-one-dimension/05-06-boundary-conditions-summary.md) | 边界条件、归一化、一维问题方法 |
+| [第 6 章第 1 讲：为什么经典极限不是简单令 hbar=0](docs/lessons/06-classical-limit/06-01-why-classical-limit-is-not-just-hbar-zero.md) | 经典极限、作用量尺度、相位抵消 |
+| [第 6 章第 2 讲：波包、期望值和经典轨迹](docs/lessons/06-classical-limit/06-02-wave-packets-expectation-values-classical-trajectories.md) | 波包、期望值、经典轨迹 |
+| [第 6 章第 3 讲：Ehrenfest 定理，量子平均如何接近牛顿方程](docs/lessons/06-classical-limit/06-03-ehrenfest-theorem.md) | Ehrenfest 定理、平均力、经典近似 |
+| [第 6 章第 4 讲：相位快速振荡、测量精度和经典图像的出现](docs/lessons/06-classical-limit/06-04-rapid-phases-measurement-resolution-classical-picture.md) | 快速相位、测量分辨率、经典图像 |
 
 ## 教学原则
 
@@ -105,7 +109,8 @@
 | [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
 | [04-postulates-general-discussion.md](docs/chapters/04-postulates-general-discussion.md) | 导学提纲；逐讲版 5/5 完成 |
 | [05-simple-problems-one-dimension.md](docs/chapters/05-simple-problems-one-dimension.md) | 导学提纲；逐讲版 6/6 完成 |
-| 第 6-21 章 | 导学提纲，待逐章扩写 |
+| [06-classical-limit.md](docs/chapters/06-classical-limit.md) | 细讲版；逐讲版 4/4 完成 |
+| 第 7-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
