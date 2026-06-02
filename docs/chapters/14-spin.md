@@ -13,15 +13,15 @@
 
 自旋 `1/2` 系统的态可写成两分量向量：
 
-```text
-|psi> = a |up> + b |down>
-```
+$$
+\lvert \psi \rangle = a\lvert \text{up}\rangle + b\lvert \text{down}\rangle
+$$
 
 其中：
 
-```text
-|a|^2 + |b|^2 = 1
-```
+$$
+\lvert a\rvert^2 + \lvert b\rvert^2 = 1
+$$
 
 测量某方向自旋时，只能得到两个结果。不同方向的自旋测量对应不同算符，因此同一个态在不同测量方向下会有不同概率分布。
 

@@ -13,15 +13,13 @@
 
 在普通表述中，我们常用哈密顿量推动态随时间变化。路径积分表述则问：
 
-```text
-从 x_i 在 t_i 到 x_f 在 t_f 的振幅是多少？
-```
+> 从 x_i 在 t_i 到 x_f 在 t_f 的振幅是多少？
 
 答案由传播子给出。路径积分思想是：连接初末点的每条路径都贡献一个相位因子，形式上与作用量有关：
 
-```text
-amplitude ~ sum over paths exp(i S[path] / hbar)
-```
+$$
+\text{amplitude} \sim \sum_{\text{paths}} \exp\!\left(\frac{iS[\text{path}]}{\hbar}\right)
+$$
 
 经典路径之所以突出，是因为在经典路径附近相位变化较慢，贡献能相干叠加；远离经典路径的贡献相位快速变化，容易相互抵消。
 

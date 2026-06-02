@@ -13,28 +13,30 @@
 
 经典谐振子的势能是：
 
-```text
-V(x) = (1/2) m omega^2 x^2
-```
+$$
+V(x) = (1/2) m \omega^2 x^2
+$$
 
 量子哈密顿量为：
 
-```text
-H = p^2/(2m) + (1/2) m omega^2 x^2
-```
+$$
+H = p^2/(2m) + (1/2) m \omega^2 x^2
+$$
 
 除了直接解微分方程，还可以引入升降算符 `a` 和 `a^\dagger`。它们把能级态上下移动：
 
-```text
-a |n> -> |n-1>
-a^\dagger |n> -> |n+1>
-```
+$$
+\begin{gathered}
+a \lvert n \rangle \to |n-1> \\
+a^\dagger \lvert n \rangle \to |n+1>
+\end{gathered}
+$$
 
 谐振子的能级为：
 
-```text
-E_n = hbar omega (n + 1/2)
-```
+$$
+E_{n} = \hbar \omega (n + 1/2)
+$$
 
 其中 `n = 0, 1, 2, ...`。即使在基态 `n=0`，能量也不是零，这就是零点能。
 

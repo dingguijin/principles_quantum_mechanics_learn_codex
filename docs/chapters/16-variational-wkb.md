@@ -13,9 +13,9 @@
 
 变分法的核心是：用一个带参数的试探波函数估计基态能量。若试探态归一化，则：
 
-```text
-E_trial = <psi|H|psi>
-```
+$$
+E_{\text{trial}} = \langle \psi \rvert H \lvert \psi \rangle
+$$
 
 它给出基态能量的上界。通过调参数让 `E_trial` 尽量小，就得到较好的近似。
 

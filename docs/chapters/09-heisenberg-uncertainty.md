@@ -13,15 +13,15 @@
 
 对观测量 `A`，不确定度可以理解为测量结果围绕平均值的分散程度：
 
-```text
-(Delta A)^2 = <A^2> - <A>^2
-```
+$$
+(\Delta A)^2 = \langle A^2\rangle - \langle A\rangle^2
+$$
 
 位置和动量满足：
 
-```text
-Delta x Delta p >= hbar/2
-```
+$$
+\Delta x\,\Delta p \ge \frac{\hbar}{2}
+$$
 
 更一般地，不确定性与对易子有关。如果两个算符不对易，就通常不能同时拥有任意精确的确定值。
 

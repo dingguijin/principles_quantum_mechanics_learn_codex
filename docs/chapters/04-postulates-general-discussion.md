@@ -14,25 +14,25 @@
 
 量子力学的基本结构可以压缩成几句话：
 
-```text
-态: |psi>
-观测量: 厄米算符 A
-可能结果: A 的本征值
-概率: 态在相应本征态方向上的投影模平方
-演化: i hbar d|psi>/dt = H|psi>
-```
+| 对象 | 量子力学写法 |
+| --- | --- |
+| 态 | $\lvert \psi\rangle$ |
+| 观测量 | 厄米算符 $A$ |
+| 可能结果 | $A$ 的本征值 |
+| 概率 | 态在相应本征态方向上的投影模平方 |
+| 演化 | $i\hbar\,\frac{d}{dt}\lvert\psi\rangle = H\lvert\psi\rangle$ |
 
 若：
 
-```text
-|psi> = sum_n c_n |a_n>
-```
+$$
+\lvert \psi \rangle = \sum_{n} c_{n} \lvert a_{n} \rangle
+$$
 
-其中 `|a_n>` 是观测量 `A` 的本征态，那么测量得到 `a_n` 的概率是：
+其中 $\lvert a_n\rangle$ 是观测量 $A$ 的本征态，那么测量得到 $a_n$ 的概率是：
 
-```text
-P(a_n) = |c_n|^2
-```
+$$
+P(a_{n}) = \lvert c_{n}\rvert^2
+$$
 
 测量不是单纯“读取已有属性”。在量子理论中，测量会把态和被测算符的本征态联系起来。
 

@@ -13,18 +13,20 @@
 
 把哈密顿量写成：
 
-```text
-H = H0 + lambda V
-```
+$$
+H = H0 + \lambda V
+$$
 
 其中 `H0` 可解，`V` 是小扰动，`lambda` 用来标记阶数。
 
 目标是把能量和态写成级数：
 
-```text
-E = E0 + lambda E1 + lambda^2 E2 + ...
-|psi> = |psi0> + lambda |psi1> + ...
-```
+$$
+\begin{gathered}
+E = E_{0} + \lambda E_{1} + \lambda^2 E_{2} + \dots \\
+\lvert \psi \rangle = \lvert \psi_0 \rangle + \lambda\lvert \psi_1 \rangle + \dots
+\end{gathered}
+$$
 
 非简并情形较直接。简并情形下，扰动会在原本同能量的子空间内重新选择合适基底。
 

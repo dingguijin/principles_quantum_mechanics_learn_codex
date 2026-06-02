@@ -13,9 +13,10 @@
 
 路径积分的形式美在于它把动力学压缩进作用量：
 
-```text
-amplitude ~ integral D[path] exp(i S[path] / hbar)
-```
+$$
+\text{amplitude} \sim \int \mathcal D[\text{path}]\,
+\exp\!\left(\frac{iS[\text{path}]}{\hbar}\right)
+$$
 
 对于二次型作用量，路径积分往往可以精确计算或化成高斯积分。对于更复杂相互作用，则通常展开成微扰级数。
 

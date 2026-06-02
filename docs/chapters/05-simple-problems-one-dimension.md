@@ -13,21 +13,21 @@
 
 一维哈密顿算符通常写成：
 
-```text
+$$
 H = p^2/(2m) + V(x)
-```
+$$
 
 在位置表象中：
 
-```text
-p -> -i hbar d/dx
-```
+$$
+p \to -i \hbar \frac{d}{dx}
+$$
 
 所以定态薛定谔方程变成：
 
-```text
-[-hbar^2/(2m) d^2/dx^2 + V(x)] psi(x) = E psi(x)
-```
+$$
+\left[-\frac{\hbar^2}{2m}\frac{d^2}{dx^2} + V(x)\right]\psi(x) = E\psi(x)
+$$
 
 这本质上是一个本征值问题：找出允许的能量 `E` 和对应波函数 `psi(x)`。
 

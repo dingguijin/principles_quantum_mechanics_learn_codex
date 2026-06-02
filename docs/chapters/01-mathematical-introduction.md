@@ -15,15 +15,13 @@
 
 学习目标不是背定义，而是能把符号翻译成普通语言。比如：
 
-```text
-A|psi> = |phi>
-```
+$$
+A\lvert \psi \rangle = \lvert \phi \rangle
+$$
 
 你应该能读成：
 
-```text
-算符 A 作用在状态 |psi> 上，得到新状态 |phi>
-```
+> 算符 $A$ 作用在状态 $\lvert\psi\rangle$ 上，得到新状态 $\lvert\phi\rangle$。
 
 ## 第 1 课：为什么量子态要当作向量
 
@@ -31,31 +29,29 @@ A|psi> = |phi>
 
 先想一个只有两个可能结果的系统。比如某个量子系统测量后只可能得到：
 
-```text
-结果 1
-结果 2
-```
+> 结果 1
+> 结果 2
 
 我们暂时不关心它是什么具体系统。只问：怎样描述它的状态？
 
 最简单的办法是给两个结果各配一个“权重”：
 
-```text
-状态 = (c1, c2)
-```
+> 状态 = (c_{1}, c_{2})
 
-这里 `c1` 和 `c2` 不是概率，而是概率振幅。真正概率是：
+这里 `c_{1}` 和 `c_{2}` 不是概率，而是概率振幅。真正概率是：
 
-```text
-P1 = |c1|^2
-P2 = |c2|^2
-```
+$$
+\begin{gathered}
+P_{1} = \lvert c_{1}\rvert^2 \\
+P_{2} = \lvert c_{2}\rvert^2
+\end{gathered}
+$$
 
 如果系统只可能出现这两个结果，那么：
 
-```text
-|c1|^2 + |c2|^2 = 1
-```
+$$
+\lvert c_{1}\rvert^2 + \lvert c_{2}\rvert^2 = 1
+$$
 
 你已经看到向量语言自然出现了：一个状态可以用一组分量表示。
 
@@ -65,28 +61,30 @@ P2 = |c2|^2
 
 例如：
 
-```text
-v = (1, 2)
+$$
+\begin{gathered}
+v = (1, 2) \\
 w = (3, -1)
-```
+\end{gathered}
+$$
 
 相加：
 
-```text
+$$
 v + w = (4, 1)
-```
+$$
 
 数乘：
 
-```text
+$$
 2v = (2, 4)
-```
+$$
 
-量子态也要允许相加和数乘，因为量子力学有叠加原理。如果 `|1>` 和 `|2>` 是两个可能状态，那么：
+量子态也要允许相加和数乘，因为量子力学有叠加原理。如果 $\lvert 1 \rangle$ 和 $\lvert 2 \rangle$ 是两个可能状态，那么：
 
-```text
-|psi> = c1|1> + c2|2>
-```
+$$
+\lvert \psi \rangle = c_{1}\lvert 1 \rangle + c_{2}\lvert 2 \rangle
+$$
 
 也是一个可能状态。
 
@@ -96,23 +94,23 @@ v + w = (4, 1)
 
 书里会大量使用：
 
-```text
-|psi>
-```
+$$
+\lvert \psi \rangle
+$$
 
 这叫 ket，读作“ket psi”。你现在不用管名字来源，只要知道它表示一个向量，也就是一个量子态。
 
 对应还有：
 
-```text
-<psi|
-```
+$$
+\langle \psi \rvert
+$$
 
 这叫 bra。bra 和 ket 合起来：
 
-```text
-<phi|psi>
-```
+$$
+\langle \phi \mid \psi \rangle
+$$
 
 表示两个态的内积。它会告诉我们两个态有多“重合”。
 
@@ -120,49 +118,53 @@ v + w = (4, 1)
 
 | 符号 | 普通语言 |
 | --- | --- |
-| `|psi>` | 一个态向量 |
-| `<psi|` | 与 `|psi>` 对应的 bra |
-| `<phi|psi>` | `|phi>` 与 `|psi>` 的内积 |
-| `A|psi>` | 算符 `A` 作用在态上 |
-| `|psi> = c1|1> + c2|2>` | 态在一组基底上的展开 |
+| $\lvert \psi \rangle$ | 一个态向量 |
+| $\langle \psi \rvert$ | 与 $\lvert \psi \rangle$ 对应的 bra |
+| $\langle \phi \mid \psi \rangle$ | $\lvert \phi \rangle$ 与 $\lvert \psi \rangle$ 的内积 |
+| $A\lvert \psi \rangle$ | 算符 `A` 作用在态上 |
+| $\lvert \psi \rangle = c_1\lvert 1 \rangle + c_2\lvert 2 \rangle$ | 态在一组基底上的展开 |
 
 ### 1.4 最小计算例子
 
 设：
 
-```text
-|1> = (1, 0)
-|2> = (0, 1)
-```
+$$
+\begin{gathered}
+\lvert 1 \rangle = (1, 0) \\
+\lvert 2 \rangle = (0, 1)
+\end{gathered}
+$$
 
 如果：
 
-```text
-|psi> = (3/5)|1> + (4/5)|2>
-```
+$$
+\lvert \psi \rangle = (3/5)\lvert 1 \rangle + (4/5)\lvert 2 \rangle
+$$
 
 那么在这组基底下：
 
-```text
-|psi> = (3/5, 4/5)
-```
+$$
+\lvert \psi \rangle = (3/5, 4/5)
+$$
 
 概率是：
 
-```text
-P1 = |3/5|^2 = 9/25
-P2 = |4/5|^2 = 16/25
-P1 + P2 = 1
-```
+$$
+\begin{gathered}
+P_{1} = \lvert 3/5\rvert^2 = 9/25 \\
+P_{2} = \lvert 4/5\rvert^2 = 16/25 \\
+P_{1} + P_{2} = 1
+\end{gathered}
+$$
 
 所以这是归一化态。
 
 ### 第 1 课检查题
 
-1. 为什么 `(c1,c2)` 可以用来描述一个两结果系统的状态？
-2. `c1` 是概率吗？如果不是，概率怎么得到？
-3. `|psi> = c1|1> + c2|2>` 用普通语言怎么说？
-4. 为什么要求 `|c1|^2 + |c2|^2 = 1`？
+1. 为什么 `(c_{1},c_{2})` 可以用来描述一个两结果系统的状态？
+2. `c_{1}` 是概率吗？如果不是，概率怎么得到？
+3. $\lvert \psi \rangle = c_1\lvert 1 \rangle + c_2\lvert 2 \rangle$ 用普通语言怎么说？
+4. 为什么要求 `|c_{1}|^2 + |c_{2}|^2 = 1`？
 
 ## 第 2 课：基底、坐标和展开
 
@@ -172,24 +174,26 @@ P1 + P2 = 1
 
 二维平面最常用基底是：
 
-```text
-e1 = (1, 0)
-e2 = (0, 1)
-```
+$$
+\begin{gathered}
+e_{1} = (1, 0) \\
+e_{2} = (0, 1)
+\end{gathered}
+$$
 
 任何二维向量都能写成：
 
-```text
-v = v1 e1 + v2 e2
-```
+$$
+v = v_{1} e_{1} + v_{2} e_{2}
+$$
 
 比如：
 
-```text
+$$
 (3, 4) = 3(1, 0) + 4(0, 1)
-```
+$$
 
-这里 `(3,4)` 是坐标表示，`e1` 和 `e2` 是基底向量。
+这里 `(3,4)` 是坐标表示，`e_{1}` 和 `e_{2}` 是基底向量。
 
 ### 2.2 向量本身和坐标不是一回事
 
@@ -203,15 +207,15 @@ v = v1 e1 + v2 e2
 
 量子力学中也一样。同一个态可以用位置表示：
 
-```text
-psi(x)
-```
+$$
+\psi(x)
+$$
 
 也可以用动量表示：
 
-```text
-phi(p)
-```
+$$
+\phi(p)
+$$
 
 它们不是两个不同物理系统，而是同一个态在不同基底下的表示。
 
@@ -219,17 +223,17 @@ phi(p)
 
 如果：
 
-```text
-|psi> = c1|1> + c2|2> + c3|3>
-```
+$$
+\lvert \psi \rangle = c_{1}\lvert 1 \rangle + c_{2}\lvert 2 \rangle + c_{3}\lvert 3 \rangle
+$$
 
-那么 `c1, c2, c3` 是 `|psi>` 在这三个基底方向上的分量。
+那么 `c_{1}, c_{2}, c_{3}` 是 $\lvert \psi \rangle$ 在这三个基底方向上的分量。
 
 若这组基底是正交归一的，那么：
 
-```text
-|c1|^2, |c2|^2, |c3|^2
-```
+$$
+\lvert c_{1}\rvert^2, \lvert c_{2}\rvert^2, \lvert c_{3}\rvert^2
+$$
 
 常常可以直接解释为对应测量结果的概率。
 
@@ -239,43 +243,49 @@ phi(p)
 
 设：
 
-```text
-|a> = (1, 0)
-|b> = (0, 1)
-|psi> = (2, -1)
-```
+$$
+\begin{gathered}
+\lvert a \rangle = (1, 0) \\
+\lvert b \rangle = (0, 1) \\
+\lvert \psi \rangle = (2, -1)
+\end{gathered}
+$$
 
 那么：
 
-```text
-|psi> = 2|a> - 1|b>
-```
+$$
+\lvert \psi \rangle = 2\lvert a \rangle - 1\lvert b \rangle
+$$
 
 如果要归一化它，先算长度：
 
-```text
-||psi|| = sqrt(2^2 + (-1)^2) = sqrt(5)
-```
+$$
+\lVert \psi\rVert = \sqrt{2^2 + (-1)^2} = \sqrt{5}
+$$
 
 归一化态是：
 
-```text
-|psi_norm> = (1/sqrt(5))(2, -1)
-           = (2/sqrt(5), -1/sqrt(5))
-```
+$$
+\begin{gathered}
+\lvert \psi_{norm} \rangle = (1/\sqrt{5})(2, -1) \\
+= (2/\sqrt{5}, -1/\sqrt{5})
+\end{gathered}
+$$
 
 此时两个方向上的概率是：
 
-```text
-P_a = |2/sqrt(5)|^2 = 4/5
-P_b = |-1/sqrt(5)|^2 = 1/5
-```
+$$
+\begin{gathered}
+P_{a} = \lvert 2/\sqrt{5}\rvert^2 = 4/5 \\
+P_{b} = \lvert -1/\sqrt{5}\rvert^2 = 1/5
+\end{gathered}
+$$
 
 ### 第 2 课检查题
 
 1. 基底和坐标有什么区别？
 2. 为什么同一个量子态可以有不同表示？
-3. 如果 `|psi> = 2|a> - |b>`，这个态是否已经归一化？
+3. 如果 $\lvert\psi\rangle = 2\lvert a\rangle - \lvert b\rangle$，这个态是否已经归一化？
 4. 为什么归一化时要除以长度？
 
 ## 第 3 课：内积、长度、正交和归一化
@@ -286,31 +296,35 @@ P_b = |-1/sqrt(5)|^2 = 1/5
 
 实向量例子：
 
-```text
-v = (1, 0)
+$$
+\begin{gathered}
+v = (1, 0) \\
 w = (0, 1)
-```
+\end{gathered}
+$$
 
 内积：
 
-```text
-v · w = 1 x 0 + 0 x 1 = 0
-```
+$$
+v · w = 1 \cdot 0 + 0 \cdot 1 = 0
+$$
 
 它们互相垂直，所以内积为 0。
 
 再看：
 
-```text
-u = (1, 0)
+$$
+\begin{gathered}
+u = (1, 0) \\
 v = (3, 0)
-```
+\end{gathered}
+$$
 
 内积：
 
-```text
+$$
 u · v = 3
-```
+$$
 
 它们方向完全一致，所以内积非零。
 
@@ -318,37 +332,37 @@ u · v = 3
 
 量子态通常有复数分量。复向量内积定义为：
 
-```text
-<v|w> = v1* w1 + v2* w2 + ...
-```
+$$
+\langle v \mid w \rangle = v_{1}^\ast w1 + v_{2}^\ast w2 + \dots
+$$
 
 为什么第一个向量要取复共轭？因为我们希望长度平方：
 
-```text
-<v|v>
-```
+$$
+\langle v \mid v \rangle
+$$
 
 一定是非负实数。
 
 例子：
 
-```text
+$$
 v = (1, i)
-```
+$$
 
 如果不用复共轭，得到：
 
-```text
-1 x 1 + i x i = 1 - 1 = 0
-```
+$$
+1 \cdot 1 + i \cdot i = 1 - 1 = 0
+$$
 
 这会荒谬地说非零向量长度为 0。
 
 用复共轭：
 
-```text
-<v|v> = 1* x 1 + i* x i = 1 + (-i)i = 2
-```
+$$
+\langle v \mid v \rangle = 1^\ast \cdot 1 + i^\ast \cdot i = 1 + (-i)i = 2
+$$
 
 这才是合理的长度平方。
 
@@ -356,55 +370,55 @@ v = (1, i)
 
 长度定义为：
 
-```text
-||v|| = sqrt(<v|v>)
-```
+$$
+|\lvert v\rvert| = \sqrt{\langle v \mid v \rangle}
+$$
 
 量子态要求：
 
-```text
-<psi|psi> = 1
-```
+$$
+\langle \psi \mid \psi \rangle = 1
+$$
 
 这叫归一化。物理意义是总概率为 1。
 
 如果一个态还没有归一化，比如：
 
-```text
+$$
 v = (1, i)
-```
+$$
 
 长度平方：
 
-```text
-<v|v> = 2
-```
+$$
+\langle v \mid v \rangle = 2
+$$
 
 长度：
 
-```text
-||v|| = sqrt(2)
-```
+$$
+|\lvert v\rvert| = \sqrt{2}
+$$
 
 归一化：
 
-```text
-|psi> = (1/sqrt(2))(1, i)
-```
+$$
+\lvert \psi \rangle = (1/\sqrt{2})(1, i)
+$$
 
 检查：
 
-```text
-<psi|psi> = 1/2 + 1/2 = 1
-```
+$$
+\langle \psi \mid \psi \rangle = 1/2 + 1/2 = 1
+$$
 
 ### 3.4 正交
 
 如果：
 
-```text
-<v|w> = 0
-```
+$$
+\langle v \mid w \rangle = 0
+$$
 
 则 `v` 和 `w` 正交。
 
@@ -414,45 +428,52 @@ v = (1, i)
 
 一组基底若满足：
 
-```text
-<i|j> = 0  当 i != j
-<i|i> = 1
-```
+$$
+\begin{gathered}
+\langle i\mid j\rangle = 0 \quad (i\ne j) \\
+\langle i\mid i\rangle = 1
+\end{gathered}
+$$
 
 可合写成：
 
-```text
-<i|j> = delta_ij
-```
+$$
+\langle i \mid j \rangle = \delta_{ij}
+$$
 
-这里 `delta_ij` 是 Kronecker delta：
+这里 $\delta_{ij}$ 是 Kronecker delta：
 
-```text
-delta_ij = 1  当 i = j
-delta_ij = 0  当 i != j
-```
+$$
+\delta_{ij} =
+\begin{cases}
+1, & i=j,\\
+0, & i\ne j.
+\end{cases}
+$$
 
 正交归一基底最大的好处是：展开系数可以用内积直接取出来。
 
 如果：
 
-```text
-|psi> = c1|1> + c2|2>
-```
+$$
+\lvert \psi \rangle = c_{1}\lvert 1 \rangle + c_{2}\lvert 2 \rangle
+$$
 
 那么：
 
-```text
-<1|psi> = c1
-<2|psi> = c2
-```
+$$
+\begin{gathered}
+\langle 1 \rvert \psi \rangle = c_{1} \\
+\langle 2 \rvert \psi \rangle = c_{2}
+\end{gathered}
+$$
 
 ### 第 3 课检查题
 
 1. 为什么复向量内积要取复共轭？
 2. 归一化的物理意义是什么？
 3. 正交是否只是“几何垂直”？在量子力学中还意味着什么？
-4. 若 `|psi> = (1/2, sqrt(3)/2)`，它是否归一化？
+4. 若 $\lvert\psi\rangle = (1/2,\sqrt{3}/2)$，它是否归一化？
 5. 若 `v = (1, i)`，归一化后的向量是什么？
 
 ## 第 4 课：线性算符和矩阵
@@ -463,15 +484,13 @@ delta_ij = 0  当 i != j
 
 写作：
 
-```text
-A|psi> = |phi>
-```
+$$
+A\lvert \psi \rangle = \lvert \phi \rangle
+$$
 
 普通语言：
 
-```text
-A 把状态 |psi> 变成状态 |phi>
-```
+> $A$ 把状态 $\lvert\psi\rangle$ 变成状态 $\lvert\phi\rangle$。
 
 在有限维空间里，算符可以用矩阵表示。
 
@@ -479,42 +498,41 @@ A 把状态 |psi> 变成状态 |phi>
 
 线性算符满足：
 
-```text
-A(a|v> + b|w>) = aA|v> + bA|w>
-```
+$$
+A(a\lvert v \rangle + b\lvert w \rangle) = aA\lvert v \rangle + bA\lvert w \rangle
+$$
 
 这句话很重要。它说：如果一个态是叠加态，那么算符对它的作用可以分别作用到每个部分上，再加起来。
 
 例子：
 
-```text
-A = [[2, 0],
-     [0, 3]]
-```
+$$
+A = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}
+$$
 
 对：
 
-```text
+$$
 v = (1, 1)
-```
+$$
 
 作用：
 
-```text
+$$
 Av = (2, 3)
-```
+$$
 
 如果：
 
-```text
-v = e1 + e2
-```
+$$
+v = e_{1} + e_{2}
+$$
 
 那么：
 
-```text
-A(e1 + e2) = Ae1 + Ae2 = (2,0) + (0,3) = (2,3)
-```
+$$
+A(e_{1} + e_{2}) = Ae1 + Ae2 = (2,0) + (0,3) = (2,3)
+$$
 
 这就是线性。
 
@@ -522,19 +540,21 @@ A(e1 + e2) = Ae1 + Ae2 = (2,0) + (0,3) = (2,3)
 
 设：
 
-```text
-A = [[1, 2],
-     [3, 4]]
-
+$$
+\begin{gathered}
+A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \\
 v = (5, 6)
-```
+\end{gathered}
+$$
 
 则：
 
-```text
-Av = (1x5 + 2x6, 3x5 + 4x6)
-   = (17, 39)
-```
+$$
+\begin{gathered}
+Av = (1x5 + 2x6, 3x5 + 4x6) \\
+= (17, 39)
+\end{gathered}
+$$
 
 不要把矩阵乘法看成神秘规则。它是在计算新向量每个分量由旧分量如何组合得到。
 
@@ -550,15 +570,15 @@ Av = (1x5 + 2x6, 3x5 + 4x6)
 
 两个算符的先后顺序可能影响结果。定义：
 
-```text
+$$
 [A,B] = AB - BA
-```
+$$
 
 如果：
 
-```text
+$$
 [A,B] = 0
-```
+$$
 
 则说它们对易。
 
@@ -570,37 +590,33 @@ Av = (1x5 + 2x6, 3x5 + 4x6)
 
 设：
 
-```text
-A = [[1, 0],
-     [0, -1]]
-
-B = [[0, 1],
-     [1, 0]]
-```
+$$
+\begin{gathered}
+A = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \\
+B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+\end{gathered}
+$$
 
 计算：
 
-```text
-AB = [[0, 1],
-      [-1, 0]]
-
-BA = [[0, -1],
-      [1, 0]]
-```
+$$
+\begin{gathered}
+AB = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} \\
+BA = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
+\end{gathered}
+$$
 
 所以：
 
-```text
-[A,B] = AB - BA
-      = [[0, 2],
-         [-2, 0]]
-```
+$$
+[A,B] = AB - BA = \begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}
+$$
 
 它们不对易。
 
 ### 第 4 课检查题
 
-1. `A|psi>` 用普通语言怎么读？
+1. $A\lvert \psi \rangle$ 用普通语言怎么读？
 2. 什么叫线性算符？
 3. 为什么矩阵表示依赖基底？
 4. `[A,B] = 0` 说明什么？
@@ -612,52 +628,49 @@ BA = [[0, -1],
 
 如果：
 
-```text
-A|v> = lambda |v>
-```
+$$
+A\lvert v \rangle = \lambda \lvert v \rangle
+$$
 
-那么 `|v>` 是 `A` 的本征向量，`lambda` 是本征值。
+那么 $\lvert v\rangle$ 是 $A$ 的本征向量，$\lambda$ 是本征值。
 
 普通语言：
 
-```text
-A 作用在 |v> 上以后，没有改变 |v> 的方向，只把它乘了一个数 lambda。
-```
+> $A$ 作用在 $\lvert v\rangle$ 上以后，没有改变 $\lvert v\rangle$ 的方向，只把它乘了一个数 $\lambda$。
 
 例子：
 
-```text
-A = [[2, 0],
-     [0, 5]]
-```
+$$
+A = \begin{pmatrix} 2 & 0 \\ 0 & 5 \end{pmatrix}
+$$
 
 对：
 
-```text
-e1 = (1, 0)
-```
+$$
+e_{1} = (1, 0)
+$$
 
 作用：
 
-```text
-Ae1 = (2, 0) = 2e1
-```
+$$
+Ae_1 = (2, 0) = 2e_1
+$$
 
-所以 `e1` 是本征向量，本征值是 `2`。
+所以 `e_{1}` 是本征向量，本征值是 `2`。
 
 对：
 
-```text
-e2 = (0, 1)
-```
+$$
+e_{2} = (0, 1)
+$$
 
 作用：
 
-```text
-Ae2 = (0, 5) = 5e2
-```
+$$
+Ae_2 = (0, 5) = 5e_2
+$$
 
-所以 `e2` 是本征向量，本征值是 `5`。
+所以 `e_{2}` 是本征向量，本征值是 `5`。
 
 ### 5.2 为什么量子力学特别重视本征值
 
@@ -667,96 +680,93 @@ Ae2 = (0, 5) = 5e2
 
 现在你只要记住：
 
-```text
-算符 -> 问的问题
-本征值 -> 可能答案
-本征向量 -> 得到该答案时对应的特殊状态
-```
+> 算符 -> 问的问题
+> 本征值 -> 可能答案
+> 本征向量 -> 得到该答案时对应的特殊状态
 
 例如，如果能量算符 `H` 满足：
 
-```text
-H|E_n> = E_n|E_n>
-```
+$$
+H\lvert E_{n} \rangle = E_{n}\lvert E_{n} \rangle
+$$
 
-那么 `E_n` 是一个允许的能量值，`|E_n>` 是对应的能量本征态。
+那么 $E_n$ 是一个允许的能量值，$\lvert E_n\rangle$ 是对应的能量本征态。
 
 ### 5.3 怎样手算 2x2 本征值
 
 对矩阵：
 
-```text
-B = [[0, 1],
-     [1, 0]]
-```
+$$
+B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+$$
 
 找满足：
 
-```text
-B(x, y) = lambda(x, y)
-```
+$$
+B(x, y) = \lambda(x, y)
+$$
 
 左边是：
 
-```text
+$$
 B(x, y) = (y, x)
-```
+$$
 
 所以：
 
-```text
-y = lambda x
-x = lambda y
-```
+$$
+\begin{gathered}
+y = \lambda x \\
+x = \lambda y
+\end{gathered}
+$$
 
 把第一式代入第二式：
 
-```text
-x = lambda(lambda x) = lambda^2 x
-```
+$$
+x = \lambda(\lambda x) = \lambda^2 x
+$$
 
 若 `x` 不为 0，则：
 
-```text
-lambda^2 = 1
-lambda = 1 或 -1
-```
+> lambda^2 = 1
+> lambda = 1 或 -1
 
 当 `lambda = 1`：
 
-```text
+$$
 y = x
-```
+$$
 
 本征向量可取：
 
-```text
+$$
 (1, 1)
-```
+$$
 
 归一化后：
 
-```text
-(1/sqrt(2))(1, 1)
-```
+$$
+(1/\sqrt{2})(1, 1)
+$$
 
 当 `lambda = -1`：
 
-```text
+$$
 y = -x
-```
+$$
 
 本征向量可取：
 
-```text
+$$
 (1, -1)
-```
+$$
 
 归一化后：
 
-```text
-(1/sqrt(2))(1, -1)
-```
+$$
+(1/\sqrt{2})(1, -1)
+$$
 
 ### 5.4 本征基底就是“最适合某个问题的基底”
 
@@ -764,21 +774,21 @@ y = -x
 
 因为在本征态上，算符作用最简单：
 
-```text
-A|a_n> = a_n|a_n>
-```
+$$
+A\lvert a_{n} \rangle = a_{n}\lvert a_{n} \rangle
+$$
 
 一般态可以展开成：
 
-```text
-|psi> = sum_n c_n |a_n>
-```
+$$
+\lvert \psi \rangle = \sum_{n} c_{n} \lvert a_{n} \rangle
+$$
 
 测量结果和概率就会围绕这些展开系数组织起来。
 
 ### 第 5 课检查题
 
-1. `A|v> = lambda|v>` 用普通语言怎么说？
+1. $A\lvert v\rangle = \lambda\lvert v\rangle$ 用普通语言怎么说？
 2. 为什么本征向量不是随便一个向量？
 3. 对角矩阵的本征向量为什么容易看出来？
 4. 对 `B = [[0,1],[1,0]]`，本征值为什么是 `1` 和 `-1`？
@@ -790,33 +800,29 @@ A|a_n> = a_n|a_n>
 
 复矩阵的 dagger 操作表示：
 
-```text
-先转置，再复共轭
-```
+> 先转置，再复共轭
 
 如果：
 
-```text
+$$
 A^\dagger = A
-```
+$$
 
 则 `A` 是厄米算符。
 
 例子：
 
-```text
-A = [[2, 0],
-     [0, 5]]
-```
+$$
+A = \begin{pmatrix} 2 & 0 \\ 0 & 5 \end{pmatrix}
+$$
 
 它是厄米的。
 
 再看：
 
-```text
-C = [[0, -i],
-     [i, 0]]
-```
+$$
+C = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
+$$
 
 它也是厄米的，因为转置并复共轭后仍回到自己。
 
@@ -831,17 +837,17 @@ C = [[0, -i],
 
 如果：
 
-```text
+$$
 U^\dagger U = I
-```
+$$
 
 则 `U` 是幺正算符。
 
 它保持长度：
 
-```text
-<Upsi|Upsi> = <psi|psi>
-```
+$$
+\langle Upsi \mid Upsi \rangle = \langle \psi \mid \psi \rangle
+$$
 
 物理意义是：如果一个态总概率原来是 1，经过幺正变换后仍然是 1。
 
@@ -849,38 +855,40 @@ U^\dagger U = I
 
 ### 6.3 投影算符：取出某个方向的分量
 
-假设 `|n>` 是归一化向量。投影到 `|n>` 方向的算符是：
+假设 $\lvert n\rangle$ 是归一化向量。投影到 $\lvert n\rangle$ 方向的算符是：
 
-```text
-P_n = |n><n|
-```
+$$
+P_{n} = \lvert n \rangle\langle n \rvert
+$$
 
 对任意态：
 
-```text
-P_n|psi> = |n><n|psi>
-```
+$$
+P_{n}\lvert \psi \rangle = \lvert n \rangle\langle n \mid \psi \rangle
+$$
 
 这里：
 
-```text
-<n|psi>
-```
+$$
+\langle n \mid \psi \rangle
+$$
 
-就是 `|psi>` 在 `|n>` 方向上的分量。
+就是 $\lvert \psi \rangle$ 在 $\lvert n\rangle$ 方向上的分量。
 
 例子：
 
-```text
-|n> = (1,0)
-|psi> = (a,b)
-```
+$$
+\begin{gathered}
+\lvert n \rangle = (1,0) \\
+\lvert \psi \rangle = (a,b)
+\end{gathered}
+$$
 
 则投影结果是：
 
-```text
-P_n|psi> = (a,0)
-```
+$$
+P_{n}\lvert \psi \rangle = (a,0)
+$$
 
 也就是只保留第一个方向的分量。
 
@@ -888,29 +896,30 @@ P_n|psi> = (a,0)
 
 如果一组正交归一基底覆盖了整个空间，那么：
 
-```text
-sum_n |n><n| = I
-```
+$$
+\sum_{n} \lvert n \rangle\langle n \rvert = I
+$$
 
 这叫完备性。
 
 普通语言：
 
-```text
-把所有基底方向的投影加起来，就等于什么都不丢地保留原向量。
-```
+> 把所有基底方向的投影加起来，就等于什么都不丢地保留原向量。
 
 对二维空间：
 
-```text
-|1><1| + |2><2| = I
-```
+$$
+\lvert 1 \rangle\langle 1 \rvert + \lvert 2 \rangle\langle 2 \rvert = I
+$$
 
 所以：
 
-```text
-|psi> = I|psi> = |1><1|psi> + |2><2|psi>
-```
+$$
+\lvert \psi \rangle
+= I\lvert \psi \rangle
+= \lvert 1 \rangle\langle 1 \mid \psi \rangle
+  + \lvert 2 \rangle\langle 2 \mid \psi \rangle
+$$
 
 这就是展开公式的算符写法。
 
@@ -920,39 +929,39 @@ sum_n |n><n| = I
 
 有限维展开：
 
-```text
-|psi> = sum_n c_n |n>
-```
+$$
+\lvert \psi \rangle = \sum_{n} c_{n} \lvert n \rangle
+$$
 
 连续位置基底展开：
 
-```text
-|psi> = integral dx psi(x)|x>
-```
+$$
+\lvert \psi \rangle = \int dx \psi(x)\lvert x \rangle
+$$
 
 有限维归一化：
 
-```text
-sum_n |c_n|^2 = 1
-```
+$$
+\sum_{n} \lvert c_{n}\rvert^2 = 1
+$$
 
 连续位置归一化：
 
-```text
-integral dx |psi(x)|^2 = 1
-```
+$$
+\int dx \lvert \psi(x)\rvert^2 = 1
+$$
 
 有限维内积：
 
-```text
-<phi|psi> = sum_n phi_n* psi_n
-```
+$$
+\langle \phi \mid \psi \rangle = \sum_{n} \phi_n^\ast \psi_n
+$$
 
 连续位置内积：
 
-```text
-<phi|psi> = integral dx phi*(x) psi(x)
-```
+$$
+\langle \phi \mid \psi \rangle = \int dx \phi^\ast(x) \psi(x)
+$$
 
 你不需要害怕积分形式。它只是把“对所有分量求和”换成“对连续位置积分”。
 
@@ -960,75 +969,63 @@ integral dx |psi(x)|^2 = 1
 
 1. 为什么厄米算符适合表示可观测量？
 2. 为什么幺正算符适合表示时间演化？
-3. 投影算符 `|n><n|` 做了什么？
-4. `sum_n |n><n| = I` 用普通语言怎么解释？
+3. 投影算符 $\lvert n\rangle\langle n\rvert$ 做了什么？
+4. $\sum_n \lvert n\rangle\langle n\rvert = I$ 用普通语言怎么解释？
 5. 为什么连续情形中求和会变成积分？
 
 ## 本章总复习
 
 ### 你现在应该能读懂的句子
 
-```text
-|psi> = sum_n c_n |n>
-```
+$$
+\lvert \psi \rangle = \sum_{n} c_{n} \lvert n \rangle
+$$
 
 意思：
 
-```text
-态 |psi> 在基底 |n> 上展开，c_n 是展开系数。
-```
+> 态 $\lvert\psi\rangle$ 在基底 $\lvert n\rangle$ 上展开，$c_n$ 是展开系数。
 
-```text
-<psi|psi> = 1
-```
+$$
+\langle \psi \mid \psi \rangle = 1
+$$
 
 意思：
 
-```text
-态已经归一化，总概率为 1。
-```
+> 态已经归一化，总概率为 1。
 
-```text
-A|a_n> = a_n|a_n>
-```
+$$
+A\lvert a_{n} \rangle = a_{n}\lvert a_{n} \rangle
+$$
 
 意思：
 
-```text
-|a_n> 是算符 A 的本征态，a_n 是对应本征值。
-```
+> $\lvert a_n\rangle$ 是算符 $A$ 的本征态，$a_n$ 是对应本征值。
 
-```text
-P_n = |n><n|
-```
+$$
+P_{n} = \lvert n \rangle\langle n \rvert
+$$
 
 意思：
 
-```text
-P_n 是投影到 |n> 方向的算符。
-```
+> $P_n$ 是投影到 $\lvert n\rangle$ 方向的算符。
 
-```text
+$$
 U^\dagger U = I
-```
+$$
 
 意思：
 
-```text
-U 是幺正算符，会保持内积和归一化。
-```
+> U 是幺正算符，会保持内积和归一化。
 
 ### 最重要的概念关系
 
-```text
-态 -> 向量
-表示方式 -> 基底下的坐标
-概率 -> 振幅模平方
-观测量 -> 厄米算符
-可能结果 -> 本征值
-特殊确定态 -> 本征向量
-时间演化 -> 幺正变换
-```
+> 态 -> 向量
+> 表示方式 -> 基底下的坐标
+> 概率 -> 振幅模平方
+> 观测量 -> 厄米算符
+> 可能结果 -> 本征值
+> 特殊确定态 -> 本征向量
+> 时间演化 -> 幺正变换
 
 ## 本章作业
 
@@ -1036,9 +1033,9 @@ U 是幺正算符，会保持内积和归一化。
 
 给定：
 
-```text
+$$
 v = (2, 2)
-```
+$$
 
 求归一化后的向量。
 
@@ -1046,26 +1043,29 @@ v = (2, 2)
 
 给定：
 
-```text
-v = (1, i)
+$$
+\begin{gathered}
+v = (1, i) \\
 w = (1, -i)
-```
+\end{gathered}
+$$
 
 计算：
 
-```text
-<v|w>
-<v|v>
-```
+$$
+\begin{gathered}
+\langle v \mid w \rangle \\
+\langle v \mid v \rangle
+\end{gathered}
+$$
 
 ### C. 本征值
 
 给定：
 
-```text
-A = [[3, 0],
-     [0, -2]]
-```
+$$
+A = \begin{pmatrix} 3 & 0 \\ 0 & -2 \end{pmatrix}
+$$
 
 求本征值和对应本征向量。
 
@@ -1073,17 +1073,18 @@ A = [[3, 0],
 
 给定：
 
-```text
-B = [[0, 1],
-     [1, 0]]
-```
+$$
+B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+$$
 
 验证：
 
-```text
-(1/sqrt(2))(1,1)
-(1/sqrt(2))(1,-1)
-```
+$$
+\begin{gathered}
+(1/\sqrt{2})(1,1) \\
+(1/\sqrt{2})(1,-1)
+\end{gathered}
+$$
 
 是它的归一化本征向量。
 
@@ -1091,16 +1092,18 @@ B = [[0, 1],
 
 设：
 
-```text
-|n> = (1,0)
-|psi> = (3/5, 4/5)
-```
+$$
+\begin{gathered}
+\lvert n \rangle = (1,0) \\
+\lvert \psi \rangle = (3/5, 4/5)
+\end{gathered}
+$$
 
 求：
 
-```text
-P_n|psi>
-```
+$$
+P_{n}\lvert \psi \rangle
+$$
 
 并解释结果。
 
@@ -1110,37 +1113,41 @@ P_n|psi>
 
 长度：
 
-```text
-||v|| = sqrt(2^2 + 2^2) = sqrt(8) = 2sqrt(2)
-```
+$$
+|\lvert v\rvert| = \sqrt{2^2 + 2^2} = \sqrt{8} = 2sqrt(2)
+$$
 
 归一化：
 
-```text
-v_norm = (1/sqrt(2), 1/sqrt(2))
-```
+$$
+v_{norm} = (1/\sqrt{2}, 1/\sqrt{2})
+$$
 
 ### B
 
 先取第一个向量的复共轭：
 
-```text
-v* = (1, -i)
-```
+$$
+v^\ast = (1, -i)
+$$
 
 所以：
 
-```text
-<v|w> = 1 x 1 + (-i)(-i) = 1 - 1 = 0
-<v|v> = 1 x 1 + (-i)i = 2
-```
+$$
+\begin{gathered}
+\langle v \mid w \rangle = 1 \cdot 1 + (-i)(-i) = 1 - 1 = 0 \\
+\langle v \mid v \rangle = 1 \cdot 1 + (-i)i = 2
+\end{gathered}
+$$
 
 ### C
 
-```text
-A(1,0) = 3(1,0)
+$$
+\begin{gathered}
+A(1,0) = 3(1,0) \\
 A(0,1) = -2(0,1)
-```
+\end{gathered}
+$$
 
 本征值为 `3` 和 `-2`，对应本征向量可取 `(1,0)` 和 `(0,1)`。
 
@@ -1148,29 +1155,29 @@ A(0,1) = -2(0,1)
 
 对：
 
-```text
-u_+ = (1/sqrt(2))(1,1)
-```
+$$
+u_+ = (1/\sqrt{2})(1,1)
+$$
 
 有：
 
-```text
+$$
 Bu_+ = u_+
-```
+$$
 
 本征值为 `1`。
 
 对：
 
-```text
-u_- = (1/sqrt(2))(1,-1)
-```
+$$
+u_- = (1/\sqrt{2})(1,-1)
+$$
 
 有：
 
-```text
+$$
 Bu_- = -u_-
-```
+$$
 
 本征值为 `-1`。
 
@@ -1178,15 +1185,15 @@ Bu_- = -u_-
 
 投影到 `(1,0)` 方向，只保留第一个分量：
 
-```text
-P_n|psi> = (3/5, 0)
-```
+$$
+P_{n}\lvert \psi \rangle = (3/5, 0)
+$$
 
-这表示态在 `|n>` 方向上的部分。对应概率是：
+这表示态在 $\lvert n\rangle$ 方向上的部分。对应概率是：
 
-```text
-|3/5|^2 = 9/25
-```
+$$
+\lvert 3/5\rvert^2 = 9/25
+$$
 
 ## 进入第 2 章前请确认
 
