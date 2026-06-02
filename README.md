@@ -2,14 +2,14 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-2 章已经改成细讲版，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-3 章已经改成细讲版，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
 1. 先读 [00-foundations.md](docs/00-foundations.md)，不要跳过检查题。它不是附录，而是零基础入口。
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-4. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 3 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+4. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 4 章之后仍是导学提纲，会继续逐章扩写为细讲版。
 5. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 教学原则
@@ -65,7 +65,8 @@
 | [00-foundations.md](docs/00-foundations.md) | 细讲版 |
 | [01-mathematical-introduction.md](docs/chapters/01-mathematical-introduction.md) | 细讲版 |
 | [02-review-of-classical-mechanics.md](docs/chapters/02-review-of-classical-mechanics.md) | 细讲版 |
-| 第 3-21 章 | 导学提纲，待逐章扩写 |
+| [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版 |
+| 第 4-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
