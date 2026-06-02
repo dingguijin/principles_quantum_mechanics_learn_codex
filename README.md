@@ -30,6 +30,13 @@
 | [第 2 章第 5 讲：作用量和驻作用量思想](docs/lessons/02-review-of-classical-mechanics/02-05-action-and-stationary-action.md) | 作用量、驻值、路径积分入口 |
 | [第 2 章第 6 讲：哈密顿量、正则动量和 Hamilton 方程](docs/lessons/02-review-of-classical-mechanics/02-06-hamiltonian-and-hamilton-equations.md) | 正则动量、哈密顿量、Hamilton 方程 |
 | [第 2 章第 7 讲：相空间、泊松括号和量子力学的入口](docs/lessons/02-review-of-classical-mechanics/02-07-phase-space-poisson-brackets-quantum-entry.md) | 相空间、泊松括号、对易子入口 |
+| [第 3 章第 1 讲：经典图像到底假设了什么](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-01-classical-picture-assumptions.md) | 经典粒子、经典波、经典假设 |
+| [第 3 章第 2 讲：黑体辐射和能量量子化](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-02-blackbody-radiation-energy-quantization.md) | 黑体辐射、紫外灾难、能量量子 |
+| [第 3 章第 3 讲：光电效应和光量子](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-03-photoelectric-effect-light-quanta.md) | 光电效应、光量子、阈频 |
+| [第 3 章第 4 讲：原子光谱和离散能级](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-04-atomic-spectra-discrete-energy-levels.md) | 线状光谱、能级、跃迁 |
+| [第 3 章第 5 讲：双缝干涉和电子的波动性](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-05-double-slit-electron-wave-nature.md) | 双缝、振幅叠加、相位 |
+| [第 3 章第 6 讲：德布罗意关系和波粒统一](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-06-de-broglie-relation-wave-particle-unity.md) | 德布罗意波长、物质波、波函数 |
+| [第 3 章第 7 讲：这些事实如何逼出量子公设](docs/lessons/03-all-is-not-well-with-classical-mechanics/03-07-how-experiments-force-quantum-postulates.md) | 量子态、算符、本征值、概率规则 |
 
 ## 教学原则
 
@@ -84,7 +91,7 @@
 | [00-foundations.md](docs/00-foundations.md) | 细讲版 |
 | [01-mathematical-introduction.md](docs/chapters/01-mathematical-introduction.md) | 细讲版；逐讲版 6/6 完成 |
 | [02-review-of-classical-mechanics.md](docs/chapters/02-review-of-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
-| [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版 |
+| [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
 | 第 4-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
