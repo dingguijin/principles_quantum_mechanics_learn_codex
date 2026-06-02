@@ -42,6 +42,12 @@
 | [第 4 章第 3 讲：测量概率和 Born 规则](docs/lessons/04-postulates-general-discussion/04-03-measurement-probabilities-born-rule.md) | Born 规则、投影概率、模平方 |
 | [第 4 章第 4 讲：测量后的态，投影和塌缩](docs/lessons/04-postulates-general-discussion/04-04-state-after-measurement-collapse.md) | 测量后态、投影算符、塌缩 |
 | [第 4 章第 5 讲：时间演化和薛定谔方程](docs/lessons/04-postulates-general-discussion/04-05-time-evolution-schrodinger-equation.md) | 薛定谔方程、哈密顿算符、幺正演化 |
+| [第 5 章第 1 讲：位置表象和一维定态薛定谔方程](docs/lessons/05-simple-problems-one-dimension/05-01-position-representation-stationary-schrodinger-equation.md) | 位置表象、波函数、定态方程 |
+| [第 5 章第 2 讲：自由粒子和平面波](docs/lessons/05-simple-problems-one-dimension/05-02-free-particle-plane-waves.md) | 自由粒子、平面波、动量本征态 |
+| [第 5 章第 3 讲：阶跃势、势垒和隧穿](docs/lessons/05-simple-problems-one-dimension/05-03-step-potentials-barriers-tunneling.md) | 势垒、指数衰减、隧穿 |
+| [第 5 章第 4 讲：无限深势阱和能级量子化](docs/lessons/05-simple-problems-one-dimension/05-04-infinite-square-well-quantized-energy.md) | 无限深势阱、边界条件、离散能级 |
+| [第 5 章第 5 讲：有限势阱和束缚态](docs/lessons/05-simple-problems-one-dimension/05-05-finite-wells-bound-states.md) | 有限势阱、束缚态、散射态 |
+| [第 5 章第 6 讲：边界条件、归一化和一维问题总复习](docs/lessons/05-simple-problems-one-dimension/05-06-boundary-conditions-summary.md) | 边界条件、归一化、一维问题方法 |
 
 ## 教学原则
 
@@ -98,7 +104,8 @@
 | [02-review-of-classical-mechanics.md](docs/chapters/02-review-of-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
 | [03-all-is-not-well-with-classical-mechanics.md](docs/chapters/03-all-is-not-well-with-classical-mechanics.md) | 细讲版；逐讲版 7/7 完成 |
 | [04-postulates-general-discussion.md](docs/chapters/04-postulates-general-discussion.md) | 导学提纲；逐讲版 5/5 完成 |
-| 第 5-21 章 | 导学提纲，待逐章扩写 |
+| [05-simple-problems-one-dimension.md](docs/chapters/05-simple-problems-one-dimension.md) | 导学提纲；逐讲版 6/6 完成 |
+| 第 6-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
