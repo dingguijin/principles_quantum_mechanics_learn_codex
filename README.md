@@ -52,6 +52,11 @@
 | [第 6 章第 2 讲：波包、期望值和经典轨迹](docs/lessons/06-classical-limit/06-02-wave-packets-expectation-values-classical-trajectories.md) | 波包、期望值、经典轨迹 |
 | [第 6 章第 3 讲：Ehrenfest 定理，量子平均如何接近牛顿方程](docs/lessons/06-classical-limit/06-03-ehrenfest-theorem.md) | Ehrenfest 定理、平均力、经典近似 |
 | [第 6 章第 4 讲：相位快速振荡、测量精度和经典图像的出现](docs/lessons/06-classical-limit/06-04-rapid-phases-measurement-resolution-classical-picture.md) | 快速相位、测量分辨率、经典图像 |
+| [第 7 章第 1 讲：为什么谐振子到处出现](docs/lessons/07-harmonic-oscillator/07-01-why-harmonic-oscillators-appear-everywhere.md) | 二次近似、平衡点、小振动 |
+| [第 7 章第 2 讲：谐振子哈密顿量和无量纲变量](docs/lessons/07-harmonic-oscillator/07-02-hamiltonian-dimensionless-variables.md) | 谐振子哈密顿量、自然长度、位置表象 |
+| [第 7 章第 3 讲：升降算符和代数解法](docs/lessons/07-harmonic-oscillator/07-03-ladder-operators-algebraic-solution.md) | 升降算符、数算符、代数解法 |
+| [第 7 章第 4 讲：能级、零点能和基态波函数](docs/lessons/07-harmonic-oscillator/07-04-energy-levels-zero-point-ground-state.md) | 等间隔能级、零点能、基态 |
+| [第 7 章第 5 讲：数态、选择规则和谐振子为什么有用](docs/lessons/07-harmonic-oscillator/07-05-number-states-selection-rules-applications.md) | 数态、选择规则、应用 |
 
 ## 教学原则
 
@@ -110,7 +115,8 @@
 | [04-postulates-general-discussion.md](docs/chapters/04-postulates-general-discussion.md) | 导学提纲；逐讲版 5/5 完成 |
 | [05-simple-problems-one-dimension.md](docs/chapters/05-simple-problems-one-dimension.md) | 导学提纲；逐讲版 6/6 完成 |
 | [06-classical-limit.md](docs/chapters/06-classical-limit.md) | 细讲版；逐讲版 4/4 完成 |
-| 第 7-21 章 | 导学提纲，待逐章扩写 |
+| [07-harmonic-oscillator.md](docs/chapters/07-harmonic-oscillator.md) | 细讲版；逐讲版 5/5 完成 |
+| 第 8-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
