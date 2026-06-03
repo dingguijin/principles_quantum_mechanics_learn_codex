@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-17 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-18 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 18 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 19 章之后仍是导学提纲，会继续逐章扩写为细讲版。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -113,6 +113,12 @@
 | [第 17 章第 4 讲：非简并二阶能量修正](docs/lessons/17-time-independent-perturbation/17-04-nondegenerate-second-order.md) | 二阶能量、虚混合、小分母 |
 | [第 17 章第 5 讲：简并微扰，为什么要先对角化](docs/lessons/17-time-independent-perturbation/17-05-degenerate-perturbation.md) | 简并子空间、扰动矩阵、能级劈裂 |
 | [第 17 章第 6 讲：适用范围、典型例子和后续入口](docs/lessons/17-time-independent-perturbation/17-06-validity-examples-and-next-chapter.md) | 适用条件、例子、含时微扰入口 |
+| [第 18 章第 1 讲：为什么需要含时微扰论](docs/lessons/18-time-dependent-perturbation/18-01-why-time-dependent-perturbation.md) | 跃迁、外场、定态微扰的边界 |
+| [第 18 章第 2 讲：相互作用绘景和展开系数](docs/lessons/18-time-dependent-perturbation/18-02-interaction-picture-coefficients.md) | 去掉 H_0 相位、系数方程 |
+| [第 18 章第 3 讲：一阶跃迁振幅公式怎么来](docs/lessons/18-time-dependent-perturbation/18-03-first-order-transition-amplitude.md) | 时间积分、相位匹配、跃迁概率 |
+| [第 18 章第 4 讲：周期扰动、共振和能量守恒的出现](docs/lessons/18-time-dependent-perturbation/18-04-periodic-driving-resonance.md) | 外场频率、共振条件、谱线宽度 |
+| [第 18 章第 5 讲：Fermi 黄金规则](docs/lessons/18-time-dependent-perturbation/18-05-fermi-golden-rule.md) | 连续末态、态密度、跃迁率 |
+| [第 18 章第 6 讲：选择规则、适用范围和后续入口](docs/lessons/18-time-dependent-perturbation/18-06-selection-rules-validity-next.md) | 矩阵元、近似失效、散射入口 |
 
 ## 教学原则
 
@@ -182,7 +188,8 @@
 | [15-addition-angular-momenta.md](docs/chapters/15-addition-angular-momenta.md) | 细讲版；逐讲版 6/6 完成 |
 | [16-variational-wkb.md](docs/chapters/16-variational-wkb.md) | 细讲版；逐讲版 6/6 完成 |
 | [17-time-independent-perturbation.md](docs/chapters/17-time-independent-perturbation.md) | 细讲版；逐讲版 6/6 完成 |
-| 第 18-21 章 | 导学提纲，待逐章扩写 |
+| [18-time-dependent-perturbation.md](docs/chapters/18-time-dependent-perturbation.md) | 细讲版；逐讲版 6/6 完成 |
+| 第 19-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
