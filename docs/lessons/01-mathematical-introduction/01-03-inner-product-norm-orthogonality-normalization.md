@@ -298,7 +298,7 @@ $$
 $$
 \begin{gathered}
 \left|\frac{2}{\sqrt{5}}\right|^2 \\
-+ \left|\frac{i}{\sqrt{5}}\right|^2 \\
+{}+ \left|\frac{i}{\sqrt{5}}\right|^2 \\
 = \frac45 + \frac15 = 1
 \end{gathered}
 $$
@@ -386,9 +386,9 @@ $$
 \begin{gathered}
 \langle k\mid\psi\rangle = \\
 c_1\langle k\mid 1\rangle \\
-+ c_2\langle k\mid 2\rangle \\
-+ \cdots \\
-+ c_n\langle k\mid n\rangle
+{}+ c_2\langle k\mid 2\rangle \\
+{}+ \cdots \\
+{}+ c_n\langle k\mid n\rangle
 \end{gathered}
 $$
 
@@ -555,7 +555,7 @@ $$
 \begin{gathered}
 \langle \psi\mid\psi\rangle = \\
 \left|\frac12\right|^2 \\
-+ \left|\frac{\sqrt{3}}{2}\right|^2 \\
+{}+ \left|\frac{\sqrt{3}}{2}\right|^2 \\
 = \frac14+\frac34=1
 \end{gathered}
 $$
@@ -578,7 +578,7 @@ $$
 \begin{gathered}
 \langle \phi\mid\psi\rangle = \\
 \frac{\sqrt{3}}{2}\cdot \frac12 \\
-+ \left(-\frac12\right)\cdot \frac{\sqrt{3}}{2} \\
+{}+ \left(-\frac12\right)\cdot \frac{\sqrt{3}}{2} \\
 =0
 \end{gathered}
 $$
@@ -639,8 +639,8 @@ $$
 \begin{gathered}
 \lvert \psi\rangle = \\
 \frac12\lvert 1\rangle \\
-+ \frac{i}{2}\lvert 2\rangle \\
-+ \frac{1}{\sqrt{2}}\lvert 3\rangle
+{}+ \frac{i}{2}\lvert 2\rangle \\
+{}+ \frac{1}{\sqrt{2}}\lvert 3\rangle
 \end{gathered}
 $$
 
@@ -662,7 +662,7 @@ $$
 \begin{gathered}
 \lvert \psi\rangle = \\
 \frac{3}{5}\lvert 1\rangle \\
-+ \frac{4}{5}\lvert 2\rangle
+{}+ \frac{4}{5}\lvert 2\rangle
 \end{gathered}
 $$
 
@@ -741,7 +741,7 @@ $$
 \begin{gathered}
 \langle a\mid b\rangle = \\
 \frac{1}{\sqrt{2}}\frac{1}{\sqrt{2}} \\
-+ \frac{1}{\sqrt{2}}\left(-\frac{1}{\sqrt{2}}\right) \\
+{}+ \frac{1}{\sqrt{2}}\left(-\frac{1}{\sqrt{2}}\right) \\
 =\frac12-\frac12=0
 \end{gathered}
 $$

@@ -965,8 +965,7 @@ $$
 \begin{aligned}
 \lvert\psi\rangle
 &= I\lvert\psi\rangle \\
-&= \lvert 1\rangle\langle 1\mid\psi\rangle
- + \lvert 2\rangle\langle 2\mid\psi\rangle
+&= \lvert 1\rangle\langle 1\mid\psi\rangle + \lvert 2\rangle\langle 2\mid\psi\rangle
 \end{aligned}
 $$
 

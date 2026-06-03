@@ -132,7 +132,7 @@ v_1
 1\\
 0
 \end{pmatrix}
-+ v_2
+{}+ v_2
 \begin{pmatrix}
 0\\
 1
@@ -235,7 +235,7 @@ $$
 \lvert +\rangle + \lvert -\rangle \\
 = \\
 \frac{1}{\sqrt{2}}(\lvert 1\rangle + \lvert 2\rangle) \\
-+ \frac{1}{\sqrt{2}}(\lvert 1\rangle - \lvert 2\rangle)
+{}+ \frac{1}{\sqrt{2}}(\lvert 1\rangle - \lvert 2\rangle)
 \end{gathered}
 $$
 
@@ -257,7 +257,7 @@ $$
 \begin{gathered}
 \lvert 1\rangle = \\
 \frac{1}{\sqrt{2}}\lvert +\rangle \\
-+ \frac{1}{\sqrt{2}}\lvert -\rangle
+{}+ \frac{1}{\sqrt{2}}\lvert -\rangle
 \end{gathered}
 $$
 
@@ -297,7 +297,7 @@ $$
 \begin{gathered}
 \lvert \psi\rangle = \\
 \frac{1}{\sqrt{2}}\lvert +\rangle \\
-+ \frac{1}{\sqrt{2}}\lvert -\rangle
+{}+ \frac{1}{\sqrt{2}}\lvert -\rangle
 \end{gathered}
 $$
 
@@ -617,7 +617,7 @@ $$
 \begin{gathered}
 \lvert 1\rangle = \\
 \frac{1}{\sqrt{2}}\lvert +\rangle \\
-+ \frac{1}{\sqrt{2}}\lvert -\rangle
+{}+ \frac{1}{\sqrt{2}}\lvert -\rangle
 \end{gathered}
 $$
 
