@@ -288,7 +288,11 @@ $$
 比如：
 
 $$
-A = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}
+A =
+\begin{pmatrix}
+2 & 0 \\
+0 & 3
+\end{pmatrix}
 $$
 
 作用在：
@@ -308,7 +312,11 @@ $$
 再看一个矩阵：
 
 $$
-B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+B =
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}
 $$
 
 它作用在：
@@ -614,11 +622,21 @@ $$
 计算：
 
 $$
-\begin{gathered}
-A = \begin{pmatrix} 2 & 0 \\ 0 & 5 \end{pmatrix} \\
-v = (1, 2) \\
+A =
+\begin{pmatrix}
+2 & 0 \\
+0 & 5
+\end{pmatrix}
+$$
+
+$$
+v = (1, 2)
+$$
+
+求：
+
+$$
 Av = ?
-\end{gathered}
 $$
 
 ### E. 物理量
