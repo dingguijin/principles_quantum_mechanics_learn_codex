@@ -48,7 +48,7 @@ $$
 \Delta x\,\Delta p\ge \frac12|\langle i\hbar\rangle|
 $$
 
-因为 \(\hbar\) 是常数：
+因为 $`\hbar`$ 是常数：
 
 $$
 \Delta x\,\Delta p\ge\frac{\hbar}{2}
@@ -86,7 +86,7 @@ $$
 
 ## 5. 和一维问题的关系
 
-无限深势阱中，粒子被限制在长度 \(L\) 内，所以位置不确定度有限。
+无限深势阱中，粒子被限制在长度 $`L`$ 内，所以位置不确定度有限。
 
 因此动量不可能精确为 0。这帮助理解为什么基态能量不为 0。
 
@@ -96,11 +96,11 @@ $$
 
 ### 练习 1
 
-用一般不确定性关系推出 \(\Delta x\Delta p\ge\hbar/2\)。
+用一般不确定性关系推出 $`\Delta x\Delta p\ge\hbar/2`$。
 
 ### 练习 2
 
-如果 \(\Delta x\) 很小，\(\Delta p\) 可以也很小吗？
+如果 $`\Delta x`$ 很小，$`\Delta p`$ 可以也很小吗？
 
 ### 练习 3
 
@@ -110,7 +110,7 @@ $$
 
 ### 解答 1
 
-代入 \([\hat x,\hat p]=i\hbar\)：
+代入 $`[\hat x,\hat p]=i\hbar`$：
 
 $$
 \Delta x\Delta p\ge \frac12|\langle i\hbar\rangle|=\frac{\hbar}{2}
@@ -118,7 +118,7 @@ $$
 
 ### 解答 2
 
-不可以。乘积必须至少为 \(\hbar/2\)。
+不可以。乘积必须至少为 $`\hbar/2`$。
 
 ### 解答 3
 
@@ -126,6 +126,6 @@ $$
 
 ## 8. 本讲必须记住的三句话
 
-1. 位置动量关系来自 \([\hat x,\hat p]=i\hbar\)。
-2. \(\Delta x\Delta p\ge\hbar/2\) 是态分布宽度的限制。
+1. 位置动量关系来自 $`[\hat x,\hat p]=i\hbar`$。
+2. $`\Delta x\Delta p\ge\hbar/2`$ 是态分布宽度的限制。
 3. 它不禁止精确测量单个物理量。

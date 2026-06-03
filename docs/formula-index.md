@@ -223,7 +223,7 @@ $$
 L_\pm=L_x\pm iL_y.
 $$
 
-自旋 $1/2$ 算符：
+自旋 $`1/2`$ 算符：
 
 $$
 \mathbf S=\frac{\hbar}{2}\boldsymbol{\sigma}.

@@ -16,11 +16,11 @@
 
 | 对象 | 量子力学写法 |
 | --- | --- |
-| 态 | $\lvert \psi\rangle$ |
-| 观测量 | 厄米算符 $A$ |
-| 可能结果 | $A$ 的本征值 |
+| 态 | $`\lvert \psi\rangle`$ |
+| 观测量 | 厄米算符 $`A`$ |
+| 可能结果 | $`A`$ 的本征值 |
 | 概率 | 态在相应本征态方向上的投影模平方 |
-| 演化 | $i\hbar\,\frac{d}{dt}\lvert\psi\rangle = H\lvert\psi\rangle$ |
+| 演化 | $`i\hbar\,\frac{d}{dt}\lvert\psi\rangle = H\lvert\psi\rangle`$ |
 
 若：
 
@@ -28,7 +28,7 @@ $$
 \lvert \psi \rangle = \sum_{n} c_{n} \lvert a_{n} \rangle
 $$
 
-其中 $\lvert a_n\rangle$ 是观测量 $A$ 的本征态，那么测量得到 $a_n$ 的概率是：
+其中 $`\lvert a_n\rangle`$ 是观测量 $`A`$ 的本征态，那么测量得到 $`a_n`$ 的概率是：
 
 $$
 P(a_{n}) = \lvert c_{n}\rvert^2

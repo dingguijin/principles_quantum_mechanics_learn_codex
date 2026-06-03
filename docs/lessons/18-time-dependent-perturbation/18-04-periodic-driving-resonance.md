@@ -54,7 +54,7 @@ e^{i(\omega_{fi}+\omega)t'}
 \right]dt'.
 $$
 
-如果 \(\omega\approx\omega_{fi}\)，第二项相位很慢，积分大；第一项相位很快，通常平均掉。
+如果 $`\omega\approx\omega_{fi}`$，第二项相位很慢，积分大；第一项相位很快，通常平均掉。
 
 因此吸收共振条件为：
 
@@ -76,7 +76,7 @@ $$
 E_f\approx E_i+\hbar\omega.
 $$
 
-所以“吸收一个频率为 \(\omega\) 的量子”这句话，在微扰论中对应时间相位长期相干累积。
+所以“吸收一个频率为 $`\omega`$ 的量子”这句话，在微扰论中对应时间相位长期相干累积。
 
 ## 和前后章节的关系
 
@@ -86,12 +86,12 @@ $$
 
 ## 练习
 
-1. 为什么周期扰动中会出现 \(\omega_{fi}-\omega\)？
+1. 为什么周期扰动中会出现 $`\omega_{fi}-\omega`$？
 2. 吸收共振条件是什么？
 3. 时间越长，频率选择为什么越尖锐？
 
 ## 解答
 
-1. 因为 \(\cos\omega t\) 含有 \(e^{-i\omega t}\)，与 \(e^{i\omega_{fi}t}\) 相乘后得到 \(e^{i(\omega_{fi}-\omega)t}\)。
-2. \(\omega\approx\omega_{fi}=(E_f-E_i)/\hbar\)，即 \(\hbar\omega\approx E_f-E_i\)。
+1. 因为 $`\cos\omega t`$ 含有 $`e^{-i\omega t}`$，与 $`e^{i\omega_{fi}t}`$ 相乘后得到 $`e^{i(\omega_{fi}-\omega)t}`$。
+2. $`\omega\approx\omega_{fi}=(E_f-E_i)/\hbar`$，即 $`\hbar\omega\approx E_f-E_i`$。
 3. 时间积分越长，非匹配频率的快速振荡抵消越充分；只有相位变化慢的频率能持续累积。

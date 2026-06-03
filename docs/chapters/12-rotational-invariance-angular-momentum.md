@@ -10,7 +10,7 @@ $$
 \mathbf L=\mathbf r\times\mathbf p
 $$
 
-量子力学中，\(\mathbf r\) 和 \(\mathbf p\) 变成算符，角动量也变成算符。更重要的是，三个分量之间不再彼此对易：
+量子力学中，$`\mathbf r`$ 和 $`\mathbf p`$ 变成算符，角动量也变成算符。更重要的是，三个分量之间不再彼此对易：
 
 $$
 [L_x,L_y]=i\hbar L_z
@@ -24,28 +24,28 @@ $$
 L^2,\quad L_z
 $$
 
-它们有共同本征态，用量子数 \(l,m\) 标记。
+它们有共同本征态，用量子数 $`l,m`$ 标记。
 
 ## 本章学习路线
 
 建议分 6 次学习：
 
 1. [第 1 讲：转动不变性，为什么角动量是转动生成元](../lessons/12-rotational-invariance-angular-momentum/12-01-rotations-and-generators.md)
-2. [第 2 讲：轨道角动量算符从 \(\mathbf r\times\mathbf p\) 来](../lessons/12-rotational-invariance-angular-momentum/12-02-orbital-angular-momentum-operator.md)
+2. [第 2 讲：轨道角动量算符从 $`\mathbf r\times\mathbf p`$ 来](../lessons/12-rotational-invariance-angular-momentum/12-02-orbital-angular-momentum-operator.md)
 3. [第 3 讲：角动量对易关系和非同时确定性](../lessons/12-rotational-invariance-angular-momentum/12-03-angular-momentum-commutators.md)
-4. [第 4 讲：\(L^2\)、\(L_z\) 和角动量量子数](../lessons/12-rotational-invariance-angular-momentum/12-04-l2-lz-quantum-numbers.md)
-5. [第 5 讲：升降算符 \(L_\pm\) 和 \(m\) 的阶梯结构](../lessons/12-rotational-invariance-angular-momentum/12-05-ladder-operators.md)
+4. [第 4 讲：$`L^2`$、$`L_z`$ 和角动量量子数](../lessons/12-rotational-invariance-angular-momentum/12-04-l2-lz-quantum-numbers.md)
+5. [第 5 讲：升降算符 $`L_\pm`$ 和 $`m`$ 的阶梯结构](../lessons/12-rotational-invariance-angular-momentum/12-05-ladder-operators.md)
 6. [第 6 讲：球谐函数、简并和后续章节入口](../lessons/12-rotational-invariance-angular-momentum/12-06-spherical-harmonics-degeneracy.md)
 
 ## 第 1 讲：转动和生成元
 
-绕 \(z\) 轴转动角度 \(\phi\) 的量子变换写成：
+绕 $`z`$ 轴转动角度 $`\phi`$ 的量子变换写成：
 
 $$
 U_z(\phi)=e^{-i\phi L_z/\hbar}
 $$
 
-这里 \(L_z\) 是绕 \(z\) 轴转动的生成元。
+这里 $`L_z`$ 是绕 $`z`$ 轴转动的生成元。
 
 这和第 11 章完全平行：
 
@@ -111,13 +111,13 @@ $$
 L_z=-i\hbar\left(x\frac{\partial}{\partial y}-y\frac{\partial}{\partial x}\right)
 $$
 
-在球坐标中，绕 \(z\) 轴转动就是改变方位角 \(\phi\)，因此：
+在球坐标中，绕 $`z`$ 轴转动就是改变方位角 $`\phi`$，因此：
 
 $$
 L_z=-i\hbar\frac{\partial}{\partial \phi}
 $$
 
-这个公式非常重要，因为它直接说明 \(m\) 量子数来自方位角相位。
+这个公式非常重要，因为它直接说明 $`m`$ 量子数来自方位角相位。
 
 ## 第 3 讲：角动量代数
 
@@ -141,7 +141,7 @@ $$
 [L_i,L_j]=i\hbar\epsilon_{ijk}L_k
 $$
 
-其中 \(\epsilon_{ijk}\) 是 Levi-Civita 符号。
+其中 $`\epsilon_{ijk}`$ 是 Levi-Civita 符号。
 
 这组关系说明角动量三个分量不能同时对角化。
 
@@ -151,7 +151,7 @@ $$
 [L_x,L_y]\ne0
 $$
 
-所以 \(L_x\) 和 \(L_y\) 不能在一般态中同时确定。
+所以 $`L_x`$ 和 $`L_y`$ 不能在一般态中同时确定。
 
 但定义：
 
@@ -195,26 +195,26 @@ $$
 l=0,1,2,\cdots
 $$
 
-对给定 \(l\)，
+对给定 $`l`$，
 
 $$
 m=-l,-l+1,\cdots,l-1,l
 $$
 
-因此每个 \(l\) 有：
+因此每个 $`l`$ 有：
 
 $$
 2l+1
 $$
 
-个 \(m\) 值。
+个 $`m`$ 值。
 
 物理意义：
 
-- \(l\) 描述角动量总大小。
-- \(m\) 描述角动量在选定 \(z\) 轴上的分量。
+- $`l`$ 描述角动量总大小。
+- $`m`$ 描述角动量在选定 $`z`$ 轴上的分量。
 
-注意 \(L^2\) 的本征值不是 \(\hbar^2l^2\)，而是：
+注意 $`L^2`$ 的本征值不是 $`\hbar^2l^2`$，而是：
 
 $$
 \hbar^2l(l+1)
@@ -234,7 +234,7 @@ $$
 L_-=L_x-iL_y
 $$
 
-它们改变 \(m\)：
+它们改变 $`m`$：
 
 $$
 L_+|l,m\rangle
@@ -246,15 +246,15 @@ L_-|l,m\rangle
 =\hbar\sqrt{l(l+1)-m(m-1)}\,|l,m-1\rangle
 $$
 
-但它们不改变 \(l\)。
+但它们不改变 $`l`$。
 
-因为 \(m\) 不能无限上升或下降，所以阶梯必须在某处停止。这迫使 \(m\) 的取值是：
+因为 $`m`$ 不能无限上升或下降，所以阶梯必须在某处停止。这迫使 $`m`$ 的取值是：
 
 $$
 -l,-l+1,\cdots,l
 $$
 
-也迫使 \(l\) 是非负整数或半整数。对轨道角动量，单值波函数要求 \(l\) 为非负整数。
+也迫使 $`l`$ 是非负整数或半整数。对轨道角动量，单值波函数要求 $`l`$ 为非负整数。
 
 ## 第 6 讲：球谐函数和转动不变性
 
@@ -288,9 +288,9 @@ $$
 [H,L^2]=0,\quad [H,L_z]=0
 $$
 
-因此能量本征态可以按 \(l,m\) 分类。
+因此能量本征态可以按 $`l,m`$ 分类。
 
-在纯中心势中，能量通常不依赖 \(m\)，所以出现 \(2l+1\) 重简并。
+在纯中心势中，能量通常不依赖 $`m`$，所以出现 $`2l+1`$ 重简并。
 
 这直接进入第 13 章氢原子。
 
@@ -348,23 +348,23 @@ $$
 
 ### A. 角动量分量
 
-从 \(\mathbf L=\mathbf r\times\mathbf p\) 写出 \(L_z\)。
+从 $`\mathbf L=\mathbf r\times\mathbf p`$ 写出 $`L_z`$。
 
 ### B. 对易关系
 
-为什么 \(L_x\) 和 \(L_y\) 不能同时任意确定？
+为什么 $`L_x`$ 和 $`L_y`$ 不能同时任意确定？
 
 ### C. 量子数
 
-给定 \(l=2\)，允许的 \(m\) 有哪些？共有几个？
+给定 $`l=2`$，允许的 $`m`$ 有哪些？共有几个？
 
 ### D. 升降算符
 
-\(L_+\) 对 \(|l,m\rangle\) 做什么？
+$`L_+`$ 对 $`|l,m\rangle`$ 做什么？
 
 ### E. 转动不变性
 
-为什么中心势 \(V(r)\) 的能量本征态可以按 \(l,m\) 分类？
+为什么中心势 $`V(r)`$ 的能量本征态可以按 $`l,m`$ 分类？
 
 ## 参考答案
 
@@ -394,7 +394,7 @@ $$
 
 ### C
 
-若 \(l=2\)，则：
+若 $`l=2`$，则：
 
 $$
 m=-2,-1,0,1,2
@@ -410,15 +410,15 @@ $$
 
 ### D
 
-它把 \(m\) 提高一格：
+它把 $`m`$ 提高一格：
 
 $$
 L_+|l,m\rangle
 \propto |l,m+1\rangle
 $$
 
-但不改变 \(l\)。
+但不改变 $`l`$。
 
 ### E
 
-中心势只依赖 \(r\)，空间转动不改变 \(r\)，所以哈密顿量与转动生成元对易。于是可以同时选取 \(H,L^2,L_z\) 的共同本征态，用 \(l,m\) 分类。
+中心势只依赖 $`r`$，空间转动不改变 $`r`$，所以哈密顿量与转动生成元对易。于是可以同时选取 $`H,L^2,L_z`$ 的共同本征态，用 $`l,m`$ 分类。

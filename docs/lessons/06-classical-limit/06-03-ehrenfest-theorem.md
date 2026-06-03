@@ -111,7 +111,7 @@ Ehrenfest 定理不是说所有量子态都像经典粒子。
 
 ### 练习 2
 
-为什么 \(\langle dV/dx\rangle\) 不一定等于 \(dV/dx(\langle x\rangle)\)？
+为什么 $`\langle dV/dx\rangle`$ 不一定等于 $`dV/dx(\langle x\rangle)`$？
 
 ### 练习 3
 
@@ -140,5 +140,5 @@ $$
 ## 9. 本讲必须记住的三句话
 
 1. Ehrenfest 定理说明量子期望值满足类似经典的方程。
-2. 平均力 \(\langle F\rangle\) 不一定等于平均位置处的力。
+2. 平均力 $`\langle F\rangle`$ 不一定等于平均位置处的力。
 3. 经典运动出现需要波包集中和势能平滑。
