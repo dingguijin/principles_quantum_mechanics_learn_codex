@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-12 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-13 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 13 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 14 章之后仍是导学提纲，会继续逐章扩写为细讲版。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -83,6 +83,12 @@
 | [第 12 章第 4 讲：L2、Lz 和角动量量子数](docs/lessons/12-rotational-invariance-angular-momentum/12-04-l2-lz-quantum-numbers.md) | L2、Lz、l 和 m |
 | [第 12 章第 5 讲：升降算符 L+ 和 L- 与 m 的阶梯结构](docs/lessons/12-rotational-invariance-angular-momentum/12-05-ladder-operators.md) | 升降算符、m 阶梯、角动量量子化 |
 | [第 12 章第 6 讲：球谐函数、简并和后续章节入口](docs/lessons/12-rotational-invariance-angular-momentum/12-06-spherical-harmonics-degeneracy.md) | 球谐函数、中心势、简并 |
+| [第 13 章第 1 讲：为什么氢原子是量子力学的关键检验](docs/lessons/13-hydrogen-atom/13-01-why-hydrogen-matters.md) | 氢原子、原子稳定、离散光谱 |
+| [第 13 章第 2 讲：二体问题、约化质量和库仑势](docs/lessons/13-hydrogen-atom/13-02-two-body-reduced-mass-coulomb-potential.md) | 二体问题、约化质量、库仑势 |
+| [第 13 章第 3 讲：球坐标、变量分离和角向方程](docs/lessons/13-hydrogen-atom/13-03-spherical-coordinates-separation-angular-equation.md) | 球坐标、变量分离、球谐函数 |
+| [第 13 章第 4 讲：径向方程、有效势和束缚态](docs/lessons/13-hydrogen-atom/13-04-radial-equation-effective-potential.md) | 径向方程、有效势、束缚态 |
+| [第 13 章第 5 讲：能级公式、量子数和简并](docs/lessons/13-hydrogen-atom/13-05-energy-levels-quantum-numbers-degeneracy.md) | 能级、n l m、简并 |
+| [第 13 章第 6 讲：轨道形状、光谱跃迁和后续修正](docs/lessons/13-hydrogen-atom/13-06-orbitals-spectra-corrections.md) | 原子轨道、光谱、精细修正 |
 
 ## 教学原则
 
@@ -147,7 +153,8 @@
 | [10-n-degrees-of-freedom.md](docs/chapters/10-n-degrees-of-freedom.md) | 细讲版；逐讲版 5/5 完成 |
 | [11-symmetries.md](docs/chapters/11-symmetries.md) | 细讲版；逐讲版 5/5 完成 |
 | [12-rotational-invariance-angular-momentum.md](docs/chapters/12-rotational-invariance-angular-momentum.md) | 细讲版；逐讲版 6/6 完成 |
-| 第 13-21 章 | 导学提纲，待逐章扩写 |
+| [13-hydrogen-atom.md](docs/chapters/13-hydrogen-atom.md) | 细讲版；逐讲版 6/6 完成 |
+| 第 14-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
