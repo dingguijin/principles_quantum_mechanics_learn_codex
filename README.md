@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-13 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-14 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 14 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 15 章之后仍是导学提纲，会继续逐章扩写为细讲版。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -89,6 +89,12 @@
 | [第 13 章第 4 讲：径向方程、有效势和束缚态](docs/lessons/13-hydrogen-atom/13-04-radial-equation-effective-potential.md) | 径向方程、有效势、束缚态 |
 | [第 13 章第 5 讲：能级公式、量子数和简并](docs/lessons/13-hydrogen-atom/13-05-energy-levels-quantum-numbers-degeneracy.md) | 能级、n l m、简并 |
 | [第 13 章第 6 讲：轨道形状、光谱跃迁和后续修正](docs/lessons/13-hydrogen-atom/13-06-orbitals-spectra-corrections.md) | 原子轨道、光谱、精细修正 |
+| [第 14 章第 1 讲：为什么需要自旋，它不是经典小球自转](docs/lessons/14-spin/14-01-why-spin-is-needed.md) | 自旋动机、内禀角动量、经典误解 |
+| [第 14 章第 2 讲：自旋 1/2 的二维态空间](docs/lessons/14-spin/14-02-spin-half-state-space.md) | 自旋 1/2、二维态空间、归一化 |
+| [第 14 章第 3 讲：Pauli 矩阵和自旋算符](docs/lessons/14-spin/14-03-pauli-matrices-spin-operators.md) | Pauli 矩阵、自旋算符、对易关系 |
+| [第 14 章第 4 讲：不同方向自旋测量和概率](docs/lessons/14-spin/14-04-spin-measurements-directions.md) | 自旋测量、本征基底、概率 |
+| [第 14 章第 5 讲：Stern-Gerlach 实验和态制备](docs/lessons/14-spin/14-05-stern-gerlach-state-preparation.md) | Stern-Gerlach、投影、态制备 |
+| [第 14 章第 6 讲：磁矩、自旋进动和后续角动量耦合入口](docs/lessons/14-spin/14-06-magnetic-moment-precession-coupling-entry.md) | 磁矩、磁场、自旋轨道耦合入口 |
 
 ## 教学原则
 
@@ -154,7 +160,8 @@
 | [11-symmetries.md](docs/chapters/11-symmetries.md) | 细讲版；逐讲版 5/5 完成 |
 | [12-rotational-invariance-angular-momentum.md](docs/chapters/12-rotational-invariance-angular-momentum.md) | 细讲版；逐讲版 6/6 完成 |
 | [13-hydrogen-atom.md](docs/chapters/13-hydrogen-atom.md) | 细讲版；逐讲版 6/6 完成 |
-| 第 14-21 章 | 导学提纲，待逐章扩写 |
+| [14-spin.md](docs/chapters/14-spin.md) | 细讲版；逐讲版 6/6 完成 |
+| 第 15-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
