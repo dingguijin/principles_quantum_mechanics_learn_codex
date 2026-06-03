@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-18 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-19 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 19 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 20 章之后仍是导学提纲，会继续逐章扩写为细讲版。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -119,6 +119,12 @@
 | [第 18 章第 4 讲：周期扰动、共振和能量守恒的出现](docs/lessons/18-time-dependent-perturbation/18-04-periodic-driving-resonance.md) | 外场频率、共振条件、谱线宽度 |
 | [第 18 章第 5 讲：Fermi 黄金规则](docs/lessons/18-time-dependent-perturbation/18-05-fermi-golden-rule.md) | 连续末态、态密度、跃迁率 |
 | [第 18 章第 6 讲：选择规则、适用范围和后续入口](docs/lessons/18-time-dependent-perturbation/18-06-selection-rules-validity-next.md) | 矩阵元、近似失效、散射入口 |
+| [第 19 章第 1 讲：为什么需要散射理论](docs/lessons/19-scattering-theory/19-01-why-scattering-theory.md) | 束缚态之外、探针、实验可测量 |
+| [第 19 章第 2 讲：截面是什么，为什么不是普通面积](docs/lessons/19-scattering-theory/19-02-cross-section.md) | 通量、微分截面、总截面 |
+| [第 19 章第 3 讲：散射振幅和远场波函数](docs/lessons/19-scattering-theory/19-03-scattering-amplitude-asymptotic-wave.md) | 入射平面波、出射球面波、概率流 |
+| [第 19 章第 4 讲：Born 近似，弱势散射的 Fourier 图像](docs/lessons/19-scattering-theory/19-04-born-approximation.md) | Born 近似、动量转移、势的 Fourier 变换 |
+| [第 19 章第 5 讲：中心势分波和相移](docs/lessons/19-scattering-theory/19-05-partial-waves-phase-shifts.md) | 角动量分解、相移、总截面 |
+| [第 19 章第 6 讲：适用范围、共振和后续入口](docs/lessons/19-scattering-theory/19-06-validity-resonance-next.md) | Born 失效、分波适用、Dirac 和路径积分入口 |
 
 ## 教学原则
 
@@ -189,7 +195,8 @@
 | [16-variational-wkb.md](docs/chapters/16-variational-wkb.md) | 细讲版；逐讲版 6/6 完成 |
 | [17-time-independent-perturbation.md](docs/chapters/17-time-independent-perturbation.md) | 细讲版；逐讲版 6/6 完成 |
 | [18-time-dependent-perturbation.md](docs/chapters/18-time-dependent-perturbation.md) | 细讲版；逐讲版 6/6 完成 |
-| 第 19-21 章 | 导学提纲，待逐章扩写 |
+| [19-scattering-theory.md](docs/chapters/19-scattering-theory.md) | 细讲版；逐讲版 6/6 完成 |
+| 第 20-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
