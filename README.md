@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-15 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-16 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 16 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 17 章之后仍是导学提纲，会继续逐章扩写为细讲版。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -101,6 +101,12 @@
 | [第 15 章第 4 讲：Clebsch-Gordan 系数是什么](docs/lessons/15-addition-angular-momenta/15-04-clebsch-gordan-coefficients.md) | Clebsch-Gordan、换基底、选择规则 |
 | [第 15 章第 5 讲：两个自旋 1/2 的完整例子](docs/lessons/15-addition-angular-momenta/15-05-two-spin-half-example.md) | 两自旋、三重态、单重态 |
 | [第 15 章第 6 讲：自旋-轨道耦合、选择规则和后续章节入口](docs/lessons/15-addition-angular-momenta/15-06-spin-orbit-selection-rules-entry.md) | 自旋轨道耦合、总角动量、选择规则 |
+| [第 16 章第 1 讲：为什么量子力学需要近似方法](docs/lessons/16-variational-wkb/16-01-why-approximation-methods.md) | 近似方法、真实系统、可解模型 |
+| [第 16 章第 2 讲：变分原理，为什么试探能量给出基态上界](docs/lessons/16-variational-wkb/16-02-variational-principle-upper-bound.md) | 变分原理、基态上界、Rayleigh-Ritz |
+| [第 16 章第 3 讲：试探波函数、参数优化和物理判断](docs/lessons/16-variational-wkb/16-03-trial-wavefunctions-optimization.md) | 试探函数、参数优化、尺度判断 |
+| [第 16 章第 4 讲：WKB 基本思想，从局域波长到相位积分](docs/lessons/16-variational-wkb/16-04-wkb-basic-idea.md) | WKB、局域动量、相位积分 |
+| [第 16 章第 5 讲：WKB 量子化、转折点和隧穿](docs/lessons/16-variational-wkb/16-05-wkb-quantization-turning-points-tunneling.md) | WKB 量子化、转折点、隧穿 |
+| [第 16 章第 6 讲：近似方法的适用范围和后续章节入口](docs/lessons/16-variational-wkb/16-06-validity-and-next-methods.md) | 适用条件、误差风险、微扰入口 |
 
 ## 教学原则
 
@@ -168,7 +174,8 @@
 | [13-hydrogen-atom.md](docs/chapters/13-hydrogen-atom.md) | 细讲版；逐讲版 6/6 完成 |
 | [14-spin.md](docs/chapters/14-spin.md) | 细讲版；逐讲版 6/6 完成 |
 | [15-addition-angular-momenta.md](docs/chapters/15-addition-angular-momenta.md) | 细讲版；逐讲版 6/6 完成 |
-| 第 16-21 章 | 导学提纲，待逐章扩写 |
+| [16-variational-wkb.md](docs/chapters/16-variational-wkb.md) | 细讲版；逐讲版 6/6 完成 |
+| 第 17-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
