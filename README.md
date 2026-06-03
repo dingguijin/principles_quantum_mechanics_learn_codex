@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-20 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-21 章已经完成细讲或逐讲扩写，后续可继续补充专题、习题讲解和复习路线。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 21 章仍是导学提纲，会继续扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 0-21 章已完成细讲或逐讲扩写。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -131,6 +131,12 @@
 | [第 20 章第 4 讲：矩阵、旋量和自旋的出现](docs/lessons/20-dirac-equation/20-04-matrices-spinors-spin.md) | 多分量波函数、Clifford 代数、自旋 |
 | [第 20 章第 5 讲：非相对论极限和 Pauli 方程入口](docs/lessons/20-dirac-equation/20-05-nonrelativistic-limit-pauli.md) | 大小分量、磁矩、自旋-磁场耦合 |
 | [第 20 章第 6 讲：负能量、反粒子和后续入口](docs/lessons/20-dirac-equation/20-06-negative-energy-antiparticles-next.md) | 负能量解、正电子、量子场论 |
+| [第 21 章第 1 讲：从传播子重新理解路径积分](docs/lessons/21-path-integrals-part-ii/21-01-propagator-review.md) | 传播子、路径求和、边界条件 |
+| [第 21 章第 2 讲：离散化、测度和为什么路径积分不是普通积分](docs/lessons/21-path-integrals-part-ii/21-02-discretization-measure.md) | 时间切片、测度、极限过程 |
+| [第 21 章第 3 讲：高斯路径积分和二次型作用量](docs/lessons/21-path-integrals-part-ii/21-03-gaussian-path-integrals.md) | 高斯积分、自由理论、行列式 |
+| [第 21 章第 4 讲：含源路径积分和生成泛函](docs/lessons/21-path-integrals-part-ii/21-04-sources-generating-functionals.md) | 源、关联函数、函数求导 |
+| [第 21 章第 5 讲：路径积分中的微扰展开](docs/lessons/21-path-integrals-part-ii/21-05-perturbation-expansion.md) | 相互作用、级数、图像化组织 |
+| [第 21 章第 6 讲：Euclidean 路径积分、统计物理和场论入口](docs/lessons/21-path-integrals-part-ii/21-06-euclidean-statistical-field-entry.md) | Wick 转动、配分函数、场论语言 |
 
 ## 教学原则
 
@@ -203,7 +209,7 @@
 | [18-time-dependent-perturbation.md](docs/chapters/18-time-dependent-perturbation.md) | 细讲版；逐讲版 6/6 完成 |
 | [19-scattering-theory.md](docs/chapters/19-scattering-theory.md) | 细讲版；逐讲版 6/6 完成 |
 | [20-dirac-equation.md](docs/chapters/20-dirac-equation.md) | 细讲版；逐讲版 6/6 完成 |
-| 第 21 章 | 导学提纲，待逐章扩写 |
+| [21-path-integrals-part-ii.md](docs/chapters/21-path-integrals-part-ii.md) | 细讲版；逐讲版 6/6 完成 |
 
 ## 版权边界
 
