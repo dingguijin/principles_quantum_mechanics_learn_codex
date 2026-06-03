@@ -22,7 +22,7 @@ $$
 
 它叫内积。可以先粗略读成：
 
-> 态 $`\lvert \psi\rangle`$ 在态 $`\lvert \phi\rangle`$ 方向上的重合程度。
+> 态 $\lvert \psi\rangle$ 在态 $\lvert \phi\rangle$ 方向上的重合程度。
 
 后面这句话会变成测量概率的基础。
 
@@ -62,7 +62,7 @@ $$
 
 ### 2.2 测量概率需要“投影”
 
-如果想知道 $`\lvert \psi\rangle`$ 有多少成分沿着 $`\lvert 1\rangle`$，直觉上要做“投影”。
+如果想知道 $\lvert \psi\rangle$ 有多少成分沿着 $\lvert 1\rangle$，直觉上要做“投影”。
 
 在普通几何中，投影靠点积。在量子力学中，投影靠内积：
 
@@ -120,7 +120,7 @@ $$
 u\cdot v = 3
 $$
 
-这表示 $`v`$ 在 $`u`$ 方向上有分量。
+这表示 $v$ 在 $u$ 方向上有分量。
 
 ### 3.2 复向量为什么必须取复共轭
 
@@ -311,7 +311,7 @@ $$
 \langle \phi\mid\psi\rangle = 0
 $$
 
-就说 $`\lvert \phi\rangle`$ 和 $`\lvert \psi\rangle`$ 正交。
+就说 $\lvert \phi\rangle$ 和 $\lvert \psi\rangle$ 正交。
 
 数学上，它们像几何中的垂直方向。
 
@@ -380,7 +380,7 @@ c_1\lvert 1\rangle + c_2\lvert 2\rangle + \cdots + c_n\lvert n\rangle
 \end{gathered}
 $$
 
-两边左乘 $`\langle k\rvert`$：
+两边左乘 $\langle k\rvert$：
 
 $$
 \begin{gathered}
@@ -398,7 +398,7 @@ $$
 \langle k\mid i\rangle = \delta_{ki}
 $$
 
-所以只有 $`i=k`$ 的那一项留下：
+所以只有 $i=k$ 的那一项留下：
 
 $$
 \langle k\mid\psi\rangle = c_k
@@ -423,13 +423,13 @@ $$
 \end{gathered}
 $$
 
-如果 $`\lvert i\rangle`$ 是某个测量的正交归一结果基底，那么：
+如果 $\lvert i\rangle$ 是某个测量的正交归一结果基底，那么：
 
 $$
 c_i = \langle i\mid\psi\rangle
 $$
 
-是得到第 $`i`$ 个结果的概率振幅，而：
+是得到第 $i$ 个结果的概率振幅，而：
 
 $$
 P_i = |c_i|^2 = |\langle i\mid\psi\rangle|^2
@@ -484,10 +484,10 @@ $$
 
 量子态空间还要求复数内积满足几个关键性质：
 
-1. $`\langle v\mid v\rangle\ge 0`$。
-2. $`\langle v\mid v\rangle=0`$ 只在 $`v=0`$ 时成立。
-3. $`\langle v\mid w\rangle = \langle w\mid v\rangle^\ast`$。
-4. 对第二个位置线性：$`\langle v\mid aw+bz\rangle = a\langle v\mid w\rangle+b\langle v\mid z\rangle`$。
+1. $\langle v\mid v\rangle\ge 0$。
+2. $\langle v\mid v\rangle=0$ 只在 $v=0$ 时成立。
+3. $\langle v\mid w\rangle = \langle w\mid v\rangle^\ast$。
+4. 对第二个位置线性：$\langle v\mid aw+bz\rangle = a\langle v\mid w\rangle+b\langle v\mid z\rangle$。
 
 不同教材的约定可能把线性放在第一个位置，但物理教材使用 Dirac 记号时，通常对 ket 那一侧线性。
 
@@ -528,10 +528,10 @@ $$
 
 本讲会在后面持续使用：
 
-- 第 4 讲：算符的矩阵元写作 $`\langle i\mid A\mid j\rangle`$。
+- 第 4 讲：算符的矩阵元写作 $\langle i\mid A\mid j\rangle$。
 - 第 5 讲：本征向量正交性依赖内积。
-- 第 4 章：测量概率公式会写成 $`|\langle a\mid\psi\rangle|^2`$。
-- 第 5 章：波函数归一化会写成 $`\int |\psi(x)|^2dx=1`$。
+- 第 4 章：测量概率公式会写成 $\lvert \langle a\mid\psi\rangle\rvert^2$。
+- 第 5 章：波函数归一化会写成 $\int \lvert \psi(x)\rvert^2dx=1$。
 - 第 9 章：不确定性关系的证明依赖内积和 Cauchy-Schwarz 不等式。
 - 第 12-15 章：角动量和自旋态大量使用正交归一基底。
 
@@ -583,7 +583,7 @@ $$
 \end{gathered}
 $$
 
-所以 $`\lvert \phi\rangle`$ 和 $`\lvert \psi\rangle`$ 正交。
+所以 $\lvert \phi\rangle$ 和 $\lvert \psi\rangle$ 正交。
 
 ## 14. 常见误解
 
@@ -591,7 +591,7 @@ $$
 
 不是。内积是两个向量之间的运算，结果是一个数。复向量内积还必须对 bra 一侧取复共轭。
 
-### 误解 2：$`\langle \psi\mid\psi\rangle`$ 是态
+### 误解 2：$\langle \psi\mid\psi\rangle$ 是态
 
 不是。它是一个数，表示态的长度平方。归一化态满足它等于 1。
 
@@ -613,7 +613,7 @@ $$
 \lvert v\rangle = (1,i)
 $$
 
-计算 $`\langle v\mid v\rangle`$，并写出归一化后的向量。
+计算 $\langle v\mid v\rangle$，并写出归一化后的向量。
 
 ### 练习 2
 
@@ -633,7 +633,7 @@ $$
 
 ### 练习 3
 
-设正交归一基底为 $`\lvert 1\rangle,\lvert 2\rangle,\lvert 3\rangle`$，且：
+设正交归一基底为 $\lvert 1\rangle,\lvert 2\rangle,\lvert 3\rangle$，且：
 
 $$
 \begin{gathered}
@@ -666,7 +666,7 @@ $$
 \end{gathered}
 $$
 
-其中 $`\lvert 1\rangle,\lvert 2\rangle`$ 是正交归一基底。计算：
+其中 $\lvert 1\rangle,\lvert 2\rangle$ 是正交归一基底。计算：
 
 $$
 \begin{gathered}
@@ -715,7 +715,7 @@ $$
 
 ### 解答 2
 
-先算 $`\lvert a\rangle`$：
+先算 $\lvert a\rangle$：
 
 $$
 \begin{gathered}
@@ -724,7 +724,7 @@ $$
 \end{gathered}
 $$
 
-再算 $`\lvert b\rangle`$：
+再算 $\lvert b\rangle$：
 
 $$
 \begin{gathered}
@@ -828,7 +828,7 @@ $$
 \end{gathered}
 $$
 
-它们分别是态 $`\lvert \psi\rangle`$ 在 $`\lvert 1\rangle`$、$`\lvert 2\rangle`$ 方向上的概率振幅。对应概率为：
+它们分别是态 $\lvert \psi\rangle$ 在 $\lvert 1\rangle$、$\lvert 2\rangle$ 方向上的概率振幅。对应概率为：
 
 $$
 P_1=\frac{9}{25},\quad P_2=\frac{16}{25}
@@ -836,6 +836,6 @@ $$
 
 ## 17. 本讲必须记住的三句话
 
-1. 内积 $`\langle \phi\mid\psi\rangle`$ 衡量两个态的重合，并给出概率振幅。
+1. 内积 $\langle \phi\mid\psi\rangle$ 衡量两个态的重合，并给出概率振幅。
 2. 复内积必须取复共轭，否则长度平方不能保证非负。
-3. 正交归一基底中，展开系数可以用 $`c_i=\langle i\mid\psi\rangle`$ 直接取出。
+3. 正交归一基底中，展开系数可以用 $c_i=\langle i\mid\psi\rangle$ 直接取出。
