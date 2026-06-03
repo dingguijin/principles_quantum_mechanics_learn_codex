@@ -116,10 +116,12 @@ $$
 则：
 
 $$
-\langle \psi'\mid\psi'\rangle
-=\langle U\psi\mid U\psi\rangle
-=\langle \psi\mid U^\dagger U\mid\psi\rangle
+\begin{gathered}
+\langle \psi'\mid\psi'\rangle \\
+=\langle U\psi\mid U\psi\rangle \\
+=\langle \psi\mid U^\dagger U\mid\psi\rangle \\
 =\langle \psi\mid\psi\rangle
+\end{gathered}
 $$
 
 所以如果原来：
@@ -151,8 +153,10 @@ $$
 对任意态：
 
 $$
-P_n\lvert\psi\rangle
+\begin{gathered}
+P_n\lvert\psi\rangle \\
 =\lvert n\rangle\langle n\mid\psi\rangle
+\end{gathered}
 $$
 
 这里：
@@ -170,8 +174,10 @@ $$
 例子：
 
 $$
-\lvert n\rangle=(1,0),\quad
+\begin{gathered}
+\lvert n\rangle=(1,0),\quad \\
 \lvert\psi\rangle=(a,b)
+\end{gathered}
 $$
 
 则：
@@ -203,8 +209,10 @@ $$
 对任意态：
 
 $$
-\lvert\psi\rangle=I\lvert\psi\rangle
+\begin{gathered}
+\lvert\psi\rangle=I\lvert\psi\rangle \\
 =\sum_i \lvert i\rangle\langle i\mid\psi\rangle
+\end{gathered}
 $$
 
 因为：
@@ -336,8 +344,10 @@ $$
 设：
 
 $$
-\lvert n\rangle=(1,0),\quad
+\begin{gathered}
+\lvert n\rangle=(1,0),\quad \\
 \lvert\psi\rangle=\left(\frac35,\frac45\right)
+\end{gathered}
 $$
 
 求：
@@ -434,10 +444,12 @@ $$
 所以：
 
 $$
-P_n\lvert\psi\rangle
-=\lvert n\rangle\langle n\mid\psi\rangle
-=\frac35(1,0)
+\begin{gathered}
+P_n\lvert\psi\rangle \\
+=\lvert n\rangle\langle n\mid\psi\rangle \\
+=\frac35(1,0) \\
 =\left(\frac35,0\right)
+\end{gathered}
 $$
 
 它只保留了 \(\lvert\psi\rangle\) 在 \(\lvert n\rangle\) 方向上的分量。
@@ -447,8 +459,10 @@ $$
 连续位置基底下，离散求和变为积分，分量 \(\psi_n\) 变为函数 \(\psi(x)\)。所以：
 
 $$
-\langle\phi\mid\psi\rangle=
+\begin{gathered}
+\langle\phi\mid\psi\rangle= \\
 \int dx\,\phi^\ast(x)\psi(x)
+\end{gathered}
 $$
 
 ### 解答 5

@@ -55,16 +55,20 @@ $$
 那么一个物理操作 \(A\) 对它的作用应当满足：
 
 $$
-A\lvert \psi\rangle =
-A(a\lvert v\rangle + b\lvert w\rangle)
+\begin{gathered}
+A\lvert \psi\rangle = \\
+A(a\lvert v\rangle + b\lvert w\rangle) \\
 = aA\lvert v\rangle + bA\lvert w\rangle
+\end{gathered}
 $$
 
 这就是线性：
 
 $$
-A(a\lvert v\rangle + b\lvert w\rangle)
+\begin{gathered}
+A(a\lvert v\rangle + b\lvert w\rangle) \\
 = aA\lvert v\rangle + bA\lvert w\rangle
+\end{gathered}
 $$
 
 线性保证叠加态的每一部分可以分别处理，再合成总结果。

@@ -172,8 +172,10 @@ $$
 那么一般态可以展开为：
 
 $$
-\lvert \psi\rangle =
+\begin{gathered}
+\lvert \psi\rangle = \\
 c_1\lvert 1\rangle + c_2\lvert 2\rangle + \cdots + c_n\lvert n\rangle
+\end{gathered}
 $$
 
 这可以简写成求和：
@@ -211,13 +213,17 @@ $$
 定义新基底：
 
 $$
-\lvert +\rangle =
+\begin{gathered}
+\lvert +\rangle = \\
 \frac{1}{\sqrt{2}}(\lvert 1\rangle + \lvert 2\rangle)
+\end{gathered}
 $$
 
 $$
-\lvert -\rangle =
+\begin{gathered}
+\lvert -\rangle = \\
 \frac{1}{\sqrt{2}}(\lvert 1\rangle - \lvert 2\rangle)
+\end{gathered}
 $$
 
 现在问：旧基底态 \(\lvert 1\rangle\) 在新基底下怎么写？
@@ -225,28 +231,34 @@ $$
 把上面两式相加：
 
 $$
-\lvert +\rangle + \lvert -\rangle
-=
-\frac{1}{\sqrt{2}}(\lvert 1\rangle + \lvert 2\rangle)
+\begin{gathered}
+\lvert +\rangle + \lvert -\rangle \\
+= \\
+\frac{1}{\sqrt{2}}(\lvert 1\rangle + \lvert 2\rangle) \\
 + \frac{1}{\sqrt{2}}(\lvert 1\rangle - \lvert 2\rangle)
+\end{gathered}
 $$
 
 右边的 \(\lvert 2\rangle\) 抵消：
 
 $$
-\lvert +\rangle + \lvert -\rangle
-=
-\frac{2}{\sqrt{2}}\lvert 1\rangle
-=
+\begin{gathered}
+\lvert +\rangle + \lvert -\rangle \\
+= \\
+\frac{2}{\sqrt{2}}\lvert 1\rangle \\
+= \\
 \sqrt{2}\lvert 1\rangle
+\end{gathered}
 $$
 
 所以：
 
 $$
-\lvert 1\rangle =
-\frac{1}{\sqrt{2}}\lvert +\rangle
+\begin{gathered}
+\lvert 1\rangle = \\
+\frac{1}{\sqrt{2}}\lvert +\rangle \\
 + \frac{1}{\sqrt{2}}\lvert -\rangle
+\end{gathered}
 $$
 
 同一个态 \(\lvert 1\rangle\)，在旧基底下坐标是：
@@ -282,9 +294,11 @@ $$
 但同一个态也可以写成：
 
 $$
-\lvert \psi\rangle =
-\frac{1}{\sqrt{2}}\lvert +\rangle
+\begin{gathered}
+\lvert \psi\rangle = \\
+\frac{1}{\sqrt{2}}\lvert +\rangle \\
 + \frac{1}{\sqrt{2}}\lvert -\rangle
+\end{gathered}
 $$
 
 所以在 \(\lvert +\rangle,\lvert -\rangle\) 这组基底对应的测量中：
@@ -423,8 +437,10 @@ $$
 态：
 
 $$
-\lvert \psi\rangle =
+\begin{gathered}
+\lvert \psi\rangle = \\
 2\lvert 1\rangle - \lvert 2\rangle
+\end{gathered}
 $$
 
 在旧基底下坐标是：
@@ -442,9 +458,11 @@ $$
 归一化后：
 
 $$
-\lvert \psi_{\text{norm}}\rangle =
-\frac{2}{\sqrt{5}}\lvert 1\rangle
+\begin{gathered}
+\lvert \psi_{\text{norm}}\rangle = \\
+\frac{2}{\sqrt{5}}\lvert 1\rangle \\
 - \frac{1}{\sqrt{5}}\lvert 2\rangle
+\end{gathered}
 $$
 
 如果用旧基底对应的测量，两个结果的概率是：
@@ -484,11 +502,13 @@ $$
 定义：
 
 $$
-\lvert +\rangle =
-\frac{1}{\sqrt{2}}(\lvert 1\rangle+\lvert 2\rangle),
-\quad
-\lvert -\rangle =
+\begin{gathered}
+\lvert +\rangle = \\
+\frac{1}{\sqrt{2}}(\lvert 1\rangle+\lvert 2\rangle), \\
+\quad \\
+\lvert -\rangle = \\
 \frac{1}{\sqrt{2}}(\lvert 1\rangle-\lvert 2\rangle)
+\end{gathered}
 $$
 
 把 \(\lvert 2\rangle\) 写成 \(\lvert +\rangle,\lvert -\rangle\) 的线性组合。
@@ -534,8 +554,10 @@ $$
 归一化后的态为：
 
 $$
-\lvert \psi_{\text{norm}}\rangle =
+\begin{gathered}
+\lvert \psi_{\text{norm}}\rangle = \\
 \frac35\lvert 1\rangle + \frac45\lvert 2\rangle
+\end{gathered}
 $$
 
 ### 解答 2
@@ -543,38 +565,48 @@ $$
 由定义：
 
 $$
-\lvert +\rangle =
+\begin{gathered}
+\lvert +\rangle = \\
 \frac{1}{\sqrt{2}}(\lvert 1\rangle+\lvert 2\rangle)
+\end{gathered}
 $$
 
 $$
-\lvert -\rangle =
+\begin{gathered}
+\lvert -\rangle = \\
 \frac{1}{\sqrt{2}}(\lvert 1\rangle-\lvert 2\rangle)
+\end{gathered}
 $$
 
 两式相减：
 
 $$
-\lvert +\rangle - \lvert -\rangle
-=
-\frac{1}{\sqrt{2}}(\lvert 1\rangle+\lvert 2\rangle)
+\begin{gathered}
+\lvert +\rangle - \lvert -\rangle \\
+= \\
+\frac{1}{\sqrt{2}}(\lvert 1\rangle+\lvert 2\rangle) \\
 - \frac{1}{\sqrt{2}}(\lvert 1\rangle-\lvert 2\rangle)
+\end{gathered}
 $$
 
 \(\lvert 1\rangle\) 抵消，得到：
 
 $$
-\lvert +\rangle - \lvert -\rangle
-=
+\begin{gathered}
+\lvert +\rangle - \lvert -\rangle \\
+= \\
 \sqrt{2}\lvert 2\rangle
+\end{gathered}
 $$
 
 所以：
 
 $$
-\lvert 2\rangle =
-\frac{1}{\sqrt{2}}\lvert +\rangle
+\begin{gathered}
+\lvert 2\rangle = \\
+\frac{1}{\sqrt{2}}\lvert +\rangle \\
 - \frac{1}{\sqrt{2}}\lvert -\rangle
+\end{gathered}
 $$
 
 ### 解答 3
@@ -582,23 +614,29 @@ $$
 上一节已经得到：
 
 $$
-\lvert 1\rangle =
-\frac{1}{\sqrt{2}}\lvert +\rangle
+\begin{gathered}
+\lvert 1\rangle = \\
+\frac{1}{\sqrt{2}}\lvert +\rangle \\
 + \frac{1}{\sqrt{2}}\lvert -\rangle
+\end{gathered}
 $$
 
 所以：
 
 $$
-P_+ =
-\left|\frac{1}{\sqrt{2}}\right|^2
+\begin{gathered}
+P_+ = \\
+\left|\frac{1}{\sqrt{2}}\right|^2 \\
 = \frac12
+\end{gathered}
 $$
 
 $$
-P_- =
-\left|\frac{1}{\sqrt{2}}\right|^2
+\begin{gathered}
+P_- = \\
+\left|\frac{1}{\sqrt{2}}\right|^2 \\
 = \frac12
+\end{gathered}
 $$
 
 ### 解答 4

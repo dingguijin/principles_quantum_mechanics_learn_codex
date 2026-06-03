@@ -297,8 +297,10 @@ $$
 验证：
 
 $$
-\frac{1}{\sqrt{2}}(1,1),\quad
+\begin{gathered}
+\frac{1}{\sqrt{2}}(1,1),\quad \\
 \frac{1}{\sqrt{2}}(1,-1)
+\end{gathered}
 $$
 
 是：
@@ -318,9 +320,11 @@ $$
 设：
 
 $$
-\lvert \psi\rangle=
-\frac{\sqrt{3}}{2}\lvert a_1\rangle+
+\begin{gathered}
+\lvert \psi\rangle= \\
+\frac{\sqrt{3}}{2}\lvert a_1\rangle+ \\
 \frac{1}{2}\lvert a_2\rangle
+\end{gathered}
 $$
 
 其中 \(\lvert a_1\rangle,\lvert a_2\rangle\) 是某观测量 \(A\) 的正交归一本征态，本征值分别为 \(1,4\)。求测量 \(A\) 的可能结果和概率。
@@ -364,8 +368,10 @@ $$
 对第一个向量：
 
 $$
-B\frac{1}{\sqrt{2}}(1,1)
+\begin{gathered}
+B\frac{1}{\sqrt{2}}(1,1) \\
 =\frac{1}{\sqrt{2}}(1,1)
+\end{gathered}
 $$
 
 本征值为 \(1\)。
@@ -373,9 +379,11 @@ $$
 对第二个向量：
 
 $$
-B\frac{1}{\sqrt{2}}(1,-1)
-=\frac{1}{\sqrt{2}}(-1,1)
+\begin{gathered}
+B\frac{1}{\sqrt{2}}(1,-1) \\
+=\frac{1}{\sqrt{2}}(-1,1) \\
 =-\frac{1}{\sqrt{2}}(1,-1)
+\end{gathered}
 $$
 
 本征值为 \(-1\)。

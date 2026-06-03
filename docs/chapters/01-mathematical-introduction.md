@@ -962,10 +962,12 @@ $$
 所以：
 
 $$
-\lvert \psi \rangle
-= I\lvert \psi \rangle
-= \lvert 1 \rangle\langle 1 \mid \psi \rangle
-  + \lvert 2 \rangle\langle 2 \mid \psi \rangle
+\begin{aligned}
+\lvert\psi\rangle
+&= I\lvert\psi\rangle \\
+&= \lvert 1\rangle\langle 1\mid\psi\rangle
+ + \lvert 2\rangle\langle 2\mid\psi\rangle
+\end{aligned}
 $$
 
 这就是展开公式的算符写法。

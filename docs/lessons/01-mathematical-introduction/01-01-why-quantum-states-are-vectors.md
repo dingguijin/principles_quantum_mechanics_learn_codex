@@ -399,8 +399,10 @@ $$
 计算总概率：
 
 $$
-\left|\frac{1}{\sqrt{3}}\right|^2 + \left|\sqrt{\frac{2}{3}}\right|^2
+\begin{gathered}
+\left|\frac{1}{\sqrt{3}}\right|^2 + \left|\sqrt{\frac{2}{3}}\right|^2 \\
 = \frac13 + \frac23 = 1
+\end{gathered}
 $$
 
 所以它已经归一化。
@@ -438,22 +440,28 @@ $$
 归一化态为：
 
 $$
-\lvert \chi_{\text{norm}} \rangle =
+\begin{gathered}
+\lvert \chi_{\text{norm}} \rangle = \\
 \frac{1}{\sqrt{5}}\left(2\lvert 1 \rangle + i\lvert 2 \rangle\right)
+\end{gathered}
 $$
 
 也就是：
 
 $$
-\lvert \chi_{\text{norm}} \rangle =
+\begin{gathered}
+\lvert \chi_{\text{norm}} \rangle = \\
 \frac{2}{\sqrt{5}}\lvert 1 \rangle + \frac{i}{\sqrt{5}}\lvert 2 \rangle
+\end{gathered}
 $$
 
 检查：
 
 $$
-\left|\frac{2}{\sqrt{5}}\right|^2 + \left|\frac{i}{\sqrt{5}}\right|^2
+\begin{gathered}
+\left|\frac{2}{\sqrt{5}}\right|^2 + \left|\frac{i}{\sqrt{5}}\right|^2 \\
 = \frac45 + \frac15 = 1
+\end{gathered}
 $$
 
 ## 13. 本讲必须记住的三句话

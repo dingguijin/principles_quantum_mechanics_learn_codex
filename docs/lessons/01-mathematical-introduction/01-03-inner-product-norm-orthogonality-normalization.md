@@ -137,8 +137,10 @@ $$
 复向量内积定义为：
 
 $$
-\langle v \mid w\rangle =
+\begin{gathered}
+\langle v \mid w\rangle = \\
 v_1^\ast w_1 + v_2^\ast w_2 + \cdots + v_n^\ast w_n
+\end{gathered}
 $$
 
 也就是：
@@ -174,10 +176,12 @@ $$
 用复共轭后：
 
 $$
-\langle v\mid v\rangle =
-1^\ast\cdot 1 + i^\ast\cdot i
-= 1 + (-i)i
+\begin{gathered}
+\langle v\mid v\rangle = \\
+1^\ast\cdot 1 + i^\ast\cdot i \\
+= 1 + (-i)i \\
 = 2
+\end{gathered}
 $$
 
 这才是合理的长度平方。
@@ -185,8 +189,10 @@ $$
 更一般地：
 
 $$
-\langle v\mid v\rangle =
+\begin{gathered}
+\langle v\mid v\rangle = \\
 |v_1|^2 + |v_2|^2 + \cdots + |v_n|^2
+\end{gathered}
 $$
 
 每一项都非负。
@@ -257,8 +263,10 @@ $$
 则：
 
 $$
-\langle \psi\mid\psi\rangle =
+\begin{gathered}
+\langle \psi\mid\psi\rangle = \\
 |2|^2 + |i|^2 = 4+1=5
+\end{gathered}
 $$
 
 所以它还不是归一化态。长度是：
@@ -270,23 +278,29 @@ $$
 归一化后：
 
 $$
-\lvert \psi_{\text{norm}}\rangle =
+\begin{gathered}
+\lvert \psi_{\text{norm}}\rangle = \\
 \frac{1}{\sqrt{5}}(2,i)
+\end{gathered}
 $$
 
 即：
 
 $$
-\lvert \psi_{\text{norm}}\rangle =
+\begin{gathered}
+\lvert \psi_{\text{norm}}\rangle = \\
 \left(\frac{2}{\sqrt{5}},\frac{i}{\sqrt{5}}\right)
+\end{gathered}
 $$
 
 检查：
 
 $$
-\left|\frac{2}{\sqrt{5}}\right|^2
-+ \left|\frac{i}{\sqrt{5}}\right|^2
+\begin{gathered}
+\left|\frac{2}{\sqrt{5}}\right|^2 \\
++ \left|\frac{i}{\sqrt{5}}\right|^2 \\
 = \frac45 + \frac15 = 1
+\end{gathered}
 $$
 
 ## 6. 正交的物理意义
@@ -360,18 +374,22 @@ $$
 如果：
 
 $$
-\lvert \psi\rangle =
+\begin{gathered}
+\lvert \psi\rangle = \\
 c_1\lvert 1\rangle + c_2\lvert 2\rangle + \cdots + c_n\lvert n\rangle
+\end{gathered}
 $$
 
 两边左乘 \(\langle k\rvert\)：
 
 $$
-\langle k\mid\psi\rangle =
-c_1\langle k\mid 1\rangle
-+ c_2\langle k\mid 2\rangle
-+ \cdots
+\begin{gathered}
+\langle k\mid\psi\rangle = \\
+c_1\langle k\mid 1\rangle \\
++ c_2\langle k\mid 2\rangle \\
++ \cdots \\
 + c_n\langle k\mid n\rangle
+\end{gathered}
 $$
 
 因为：
@@ -399,8 +417,10 @@ $$
 对于归一化态：
 
 $$
-\lvert \psi\rangle =
+\begin{gathered}
+\lvert \psi\rangle = \\
 \sum_i c_i\lvert i\rangle
+\end{gathered}
 $$
 
 如果 \(\lvert i\rangle\) 是某个测量的正交归一结果基底，那么：
@@ -482,8 +502,10 @@ $$
 两个波函数的内积写成积分：
 
 $$
-\langle \phi\mid\psi\rangle =
+\begin{gathered}
+\langle \phi\mid\psi\rangle = \\
 \int \phi^\ast(x)\psi(x)\,dx
+\end{gathered}
 $$
 
 这正是有限维公式：
@@ -530,10 +552,12 @@ $$
 计算归一化：
 
 $$
-\langle \psi\mid\psi\rangle =
-\left|\frac12\right|^2
-+ \left|\frac{\sqrt{3}}{2}\right|^2
+\begin{gathered}
+\langle \psi\mid\psi\rangle = \\
+\left|\frac12\right|^2 \\
++ \left|\frac{\sqrt{3}}{2}\right|^2 \\
 = \frac14+\frac34=1
+\end{gathered}
 $$
 
 所以它是归一化态。
@@ -551,10 +575,12 @@ $$
 计算内积：
 
 $$
-\langle \phi\mid\psi\rangle =
-\frac{\sqrt{3}}{2}\cdot \frac12
-+ \left(-\frac12\right)\cdot \frac{\sqrt{3}}{2}
+\begin{gathered}
+\langle \phi\mid\psi\rangle = \\
+\frac{\sqrt{3}}{2}\cdot \frac12 \\
++ \left(-\frac12\right)\cdot \frac{\sqrt{3}}{2} \\
 =0
+\end{gathered}
 $$
 
 所以 \(\lvert \phi\rangle\) 和 \(\lvert \psi\rangle\) 正交。
@@ -594,11 +620,13 @@ $$
 设：
 
 $$
-\lvert a\rangle =
-\frac{1}{\sqrt{2}}(1,1),
-\quad
-\lvert b\rangle =
+\begin{gathered}
+\lvert a\rangle = \\
+\frac{1}{\sqrt{2}}(1,1), \\
+\quad \\
+\lvert b\rangle = \\
 \frac{1}{\sqrt{2}}(1,-1)
+\end{gathered}
 $$
 
 判断它们是否归一化，是否正交。
@@ -608,10 +636,12 @@ $$
 设正交归一基底为 \(\lvert 1\rangle,\lvert 2\rangle,\lvert 3\rangle\)，且：
 
 $$
-\lvert \psi\rangle =
-\frac12\lvert 1\rangle
-+ \frac{i}{2}\lvert 2\rangle
+\begin{gathered}
+\lvert \psi\rangle = \\
+\frac12\lvert 1\rangle \\
++ \frac{i}{2}\lvert 2\rangle \\
 + \frac{1}{\sqrt{2}}\lvert 3\rangle
+\end{gathered}
 $$
 
 求三个测量结果的概率，并判断该态是否归一化。
@@ -629,16 +659,20 @@ $$
 设：
 
 $$
-\lvert \psi\rangle =
-\frac{3}{5}\lvert 1\rangle
+\begin{gathered}
+\lvert \psi\rangle = \\
+\frac{3}{5}\lvert 1\rangle \\
 + \frac{4}{5}\lvert 2\rangle
+\end{gathered}
 $$
 
 其中 \(\lvert 1\rangle,\lvert 2\rangle\) 是正交归一基底。计算：
 
 $$
-\langle 1\mid\psi\rangle,\quad
+\begin{gathered}
+\langle 1\mid\psi\rangle,\quad \\
 \langle 2\mid\psi\rangle
+\end{gathered}
 $$
 
 并说明它们的物理意义。
@@ -656,10 +690,12 @@ $$
 所以：
 
 $$
-\langle v\mid v\rangle =
-1^\ast\cdot 1+i^\ast\cdot i
-=1+(-i)i
+\begin{gathered}
+\langle v\mid v\rangle = \\
+1^\ast\cdot 1+i^\ast\cdot i \\
+=1+(-i)i \\
 =2
+\end{gathered}
 $$
 
 长度为：
@@ -671,8 +707,10 @@ $$
 归一化后：
 
 $$
-\lvert v_{\text{norm}}\rangle =
+\begin{gathered}
+\lvert v_{\text{norm}}\rangle = \\
 \frac{1}{\sqrt{2}}(1,i)
+\end{gathered}
 $$
 
 ### 解答 2
@@ -680,15 +718,19 @@ $$
 先算 \(\lvert a\rangle\)：
 
 $$
-\langle a\mid a\rangle =
+\begin{gathered}
+\langle a\mid a\rangle = \\
 \frac12+\frac12=1
+\end{gathered}
 $$
 
 再算 \(\lvert b\rangle\)：
 
 $$
-\langle b\mid b\rangle =
+\begin{gathered}
+\langle b\mid b\rangle = \\
 \frac12+\frac12=1
+\end{gathered}
 $$
 
 所以二者都归一化。
@@ -696,10 +738,12 @@ $$
 内积：
 
 $$
-\langle a\mid b\rangle =
-\frac{1}{\sqrt{2}}\frac{1}{\sqrt{2}}
-+ \frac{1}{\sqrt{2}}\left(-\frac{1}{\sqrt{2}}\right)
+\begin{gathered}
+\langle a\mid b\rangle = \\
+\frac{1}{\sqrt{2}}\frac{1}{\sqrt{2}} \\
++ \frac{1}{\sqrt{2}}\left(-\frac{1}{\sqrt{2}}\right) \\
 =\frac12-\frac12=0
+\end{gathered}
 $$
 
 所以它们正交。
@@ -765,19 +809,23 @@ $$
 所以：
 
 $$
-\langle 1\mid\psi\rangle =
-\frac35\langle 1\mid 1\rangle
-+\frac45\langle 1\mid 2\rangle
+\begin{gathered}
+\langle 1\mid\psi\rangle = \\
+\frac35\langle 1\mid 1\rangle \\
++\frac45\langle 1\mid 2\rangle \\
 =\frac35
+\end{gathered}
 $$
 
 同理：
 
 $$
-\langle 2\mid\psi\rangle =
-\frac35\langle 2\mid 1\rangle
-+\frac45\langle 2\mid 2\rangle
+\begin{gathered}
+\langle 2\mid\psi\rangle = \\
+\frac35\langle 2\mid 1\rangle \\
++\frac45\langle 2\mid 2\rangle \\
 =\frac45
+\end{gathered}
 $$
 
 它们分别是态 \(\lvert \psi\rangle\) 在 \(\lvert 1\rangle\)、\(\lvert 2\rangle\) 方向上的概率振幅。对应概率为：
