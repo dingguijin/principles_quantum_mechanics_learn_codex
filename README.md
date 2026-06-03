@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-19 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-20 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 20 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 21 章仍是导学提纲，会继续扩写为细讲版。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -125,6 +125,12 @@
 | [第 19 章第 4 讲：Born 近似，弱势散射的 Fourier 图像](docs/lessons/19-scattering-theory/19-04-born-approximation.md) | Born 近似、动量转移、势的 Fourier 变换 |
 | [第 19 章第 5 讲：中心势分波和相移](docs/lessons/19-scattering-theory/19-05-partial-waves-phase-shifts.md) | 角动量分解、相移、总截面 |
 | [第 19 章第 6 讲：适用范围、共振和后续入口](docs/lessons/19-scattering-theory/19-06-validity-resonance-next.md) | Born 失效、分波适用、Dirac 和路径积分入口 |
+| [第 20 章第 1 讲：为什么薛定谔方程不够相对论](docs/lessons/20-dirac-equation/20-01-why-relativistic-quantum.md) | 非相对论能量、Lorentz 对称、光速尺度 |
+| [第 20 章第 2 讲：Klein-Gordon 方程和它的困难](docs/lessons/20-dirac-equation/20-02-klein-gordon-difficulty.md) | 二阶时间导数、概率密度问题 |
+| [第 20 章第 3 讲：Dirac 的线性化思路](docs/lessons/20-dirac-equation/20-03-dirac-linearization.md) | 一阶方程、alpha beta 矩阵、反对易关系 |
+| [第 20 章第 4 讲：矩阵、旋量和自旋的出现](docs/lessons/20-dirac-equation/20-04-matrices-spinors-spin.md) | 多分量波函数、Clifford 代数、自旋 |
+| [第 20 章第 5 讲：非相对论极限和 Pauli 方程入口](docs/lessons/20-dirac-equation/20-05-nonrelativistic-limit-pauli.md) | 大小分量、磁矩、自旋-磁场耦合 |
+| [第 20 章第 6 讲：负能量、反粒子和后续入口](docs/lessons/20-dirac-equation/20-06-negative-energy-antiparticles-next.md) | 负能量解、正电子、量子场论 |
 
 ## 教学原则
 
@@ -196,7 +202,8 @@
 | [17-time-independent-perturbation.md](docs/chapters/17-time-independent-perturbation.md) | 细讲版；逐讲版 6/6 完成 |
 | [18-time-dependent-perturbation.md](docs/chapters/18-time-dependent-perturbation.md) | 细讲版；逐讲版 6/6 完成 |
 | [19-scattering-theory.md](docs/chapters/19-scattering-theory.md) | 细讲版；逐讲版 6/6 完成 |
-| 第 20-21 章 | 导学提纲，待逐章扩写 |
+| [20-dirac-equation.md](docs/chapters/20-dirac-equation.md) | 细讲版；逐讲版 6/6 完成 |
+| 第 21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
