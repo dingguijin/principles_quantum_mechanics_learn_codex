@@ -2,7 +2,7 @@
 
 这是一套配合 R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. 学习的中文一对一导学笔记。目标不是压缩原书，而是像老师带学生一样，从零基础开始逐步补齐数学、经典力学和量子力学形式体系。
 
-当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-10 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
+当前仓库采用“先搭全书提纲，再逐章扩写”的方式维护。第 0-11 章已经完成细讲或逐讲扩写，后续章节会按同样标准继续扩展。
 
 ## 使用方式
 
@@ -10,7 +10,7 @@
 2. 再读 [第 1 章细讲版](docs/chapters/01-mathematical-introduction.md)，按“第 1 课、第 2 课...”分次学习。
 3. 新增的逐讲版会放在 [docs/lessons](docs/lessons)。每一讲单独一个 Markdown 文件，固定包含：为什么有这个概念、解决什么问题、公式怎么来、物理意义、与经典力学/数学/历史/后续章节的关系、练习和解答。
 4. 每节课都按这个顺序学习：普通语言解释 -> 最小计算例子 -> 检查题 -> 作业。
-5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 11 章之后仍是导学提纲，会继续逐章扩写为细讲版。
+5. 按章节顺序学习 [docs/chapters](docs/chapters)。目前第 12 章之后仍是导学提纲，会继续逐章扩写为细讲版。
 6. 纸质书用于阅读原书推导和习题；本仓库只提供原创讲解、学习路线、补充例题和自测。
 
 ## 逐讲版目录
@@ -72,6 +72,11 @@
 | [第 10 章第 3 讲：多自由度哈密顿量和可分变量](docs/lessons/10-n-degrees-of-freedom/10-03-hamiltonians-and-separation.md) | 多自由度哈密顿量、变量分离 |
 | [第 10 章第 4 讲：组合系统和张量积态空间](docs/lessons/10-n-degrees-of-freedom/10-04-tensor-product-composite-systems.md) | 张量积、组合系统、联合基底 |
 | [第 10 章第 5 讲：可分态、纠缠态和多粒子物理入口](docs/lessons/10-n-degrees-of-freedom/10-05-separable-entangled-states.md) | 可分态、纠缠态、多粒子入口 |
+| [第 11 章第 1 讲：什么是对称性，为什么它能压缩物理规律](docs/lessons/11-symmetries/11-01-what-is-symmetry.md) | 对称性、物理规律不变、守恒量预告 |
+| [第 11 章第 2 讲：量子态的变换为什么要用幺正算符](docs/lessons/11-symmetries/11-02-unitary-transformations.md) | 幺正变换、内积、概率保持 |
+| [第 11 章第 3 讲：连续对称性和生成元](docs/lessons/11-symmetries/11-03-continuous-symmetries-generators.md) | 连续对称、生成元、指数算符 |
+| [第 11 章第 4 讲：平移、时间平移和动量能量](docs/lessons/11-symmetries/11-04-translations-momentum-energy.md) | 平移、动量、时间演化、能量 |
+| [第 11 章第 5 讲：守恒量、对易关系和后续角动量入口](docs/lessons/11-symmetries/11-05-conservation-commutators-angular-momentum-entry.md) | 守恒量、对易关系、角动量入口 |
 
 ## 教学原则
 
@@ -134,7 +139,8 @@
 | [08-path-integral-formulation.md](docs/chapters/08-path-integral-formulation.md) | 细讲版；逐讲版 5/5 完成 |
 | [09-heisenberg-uncertainty.md](docs/chapters/09-heisenberg-uncertainty.md) | 细讲版；逐讲版 5/5 完成 |
 | [10-n-degrees-of-freedom.md](docs/chapters/10-n-degrees-of-freedom.md) | 细讲版；逐讲版 5/5 完成 |
-| 第 11-21 章 | 导学提纲，待逐章扩写 |
+| [11-symmetries.md](docs/chapters/11-symmetries.md) | 细讲版；逐讲版 5/5 完成 |
+| 第 12-21 章 | 导学提纲，待逐章扩写 |
 
 ## 版权边界
 
