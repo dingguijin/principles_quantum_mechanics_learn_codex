@@ -21,7 +21,7 @@ $$
 
 你应该能读成：
 
-> 算符 $A$ 作用在状态 $\lvert\psi\rangle$ 上，得到新状态 $\lvert\phi\rangle$。
+> 算符 $`A`$ 作用在状态 $`\lvert\psi\rangle`$ 上，得到新状态 $`\lvert\phi\rangle`$。
 
 ## 第 1 课：为什么量子态要当作向量
 
@@ -36,9 +36,9 @@ $$
 
 最简单的办法是给两个结果各配一个“权重”：
 
-> 状态 = (c_{1}, c_{2})
+> 状态 = $`(c_{1},c_{2})`$
 
-这里 `c_{1}` 和 `c_{2}` 不是概率，而是概率振幅。真正概率是：
+这里 $`c_{1}`$ 和 $`c_{2}`$ 不是概率，而是概率振幅。真正概率是：
 
 $$
 \begin{gathered}
@@ -80,7 +80,7 @@ $$
 2v = (2, 4)
 $$
 
-量子态也要允许相加和数乘，因为量子力学有叠加原理。如果 $\lvert 1 \rangle$ 和 $\lvert 2 \rangle$ 是两个可能状态，那么：
+量子态也要允许相加和数乘，因为量子力学有叠加原理。如果 $`\lvert 1 \rangle`$ 和 $`\lvert 2 \rangle`$ 是两个可能状态，那么：
 
 $$
 \lvert \psi \rangle = c_{1}\lvert 1 \rangle + c_{2}\lvert 2 \rangle
@@ -118,11 +118,11 @@ $$
 
 | 符号 | 普通语言 |
 | --- | --- |
-| $\lvert \psi \rangle$ | 一个态向量 |
-| $\langle \psi \rvert$ | 与 $\lvert \psi \rangle$ 对应的 bra |
-| $\langle \phi \mid \psi \rangle$ | $\lvert \phi \rangle$ 与 $\lvert \psi \rangle$ 的内积 |
-| $A\lvert \psi \rangle$ | 算符 `A` 作用在态上 |
-| $\lvert \psi \rangle = c_1\lvert 1 \rangle + c_2\lvert 2 \rangle$ | 态在一组基底上的展开 |
+| $`\lvert \psi \rangle`$ | 一个态向量 |
+| $`\langle \psi \rvert`$ | 与 $`\lvert \psi \rangle`$ 对应的 bra |
+| $`\langle \phi \mid \psi \rangle`$ | $`\lvert \phi \rangle`$ 与 $`\lvert \psi \rangle`$ 的内积 |
+| $`A\lvert \psi \rangle`$ | 算符 $`A`$ 作用在态上 |
+| $`\lvert \psi \rangle = c_1\lvert 1 \rangle + c_2\lvert 2 \rangle`$ | 态在一组基底上的展开 |
 
 ### 1.4 最小计算例子
 
@@ -161,10 +161,10 @@ $$
 
 ### 第 1 课检查题
 
-1. 为什么 `(c_{1},c_{2})` 可以用来描述一个两结果系统的状态？
-2. `c_{1}` 是概率吗？如果不是，概率怎么得到？
-3. $\lvert \psi \rangle = c_1\lvert 1 \rangle + c_2\lvert 2 \rangle$ 用普通语言怎么说？
-4. 为什么要求 `|c_{1}|^2 + |c_{2}|^2 = 1`？
+1. 为什么 $`(c_{1},c_{2})`$ 可以用来描述一个两结果系统的状态？
+2. $`c_{1}`$ 是概率吗？如果不是，概率怎么得到？
+3. $`\lvert \psi \rangle = c_1\lvert 1 \rangle + c_2\lvert 2 \rangle`$ 用普通语言怎么说？
+4. 为什么要求 $`|c_{1}|^2 + |c_{2}|^2 = 1`$？
 
 ## 第 2 课：基底、坐标和展开
 
@@ -193,7 +193,7 @@ $$
 (3, 4) = 3(1, 0) + 4(0, 1)
 $$
 
-这里 `(3,4)` 是坐标表示，`e_{1}` 和 `e_{2}` 是基底向量。
+这里 $`(3,4)`$ 是坐标表示，$`e_{1}`$ 和 $`e_{2}`$ 是基底向量。
 
 ### 2.2 向量本身和坐标不是一回事
 
@@ -227,7 +227,7 @@ $$
 \lvert \psi \rangle = c_{1}\lvert 1 \rangle + c_{2}\lvert 2 \rangle + c_{3}\lvert 3 \rangle
 $$
 
-那么 `c_{1}, c_{2}, c_{3}` 是 $\lvert \psi \rangle$ 在这三个基底方向上的分量。
+那么 $`c_{1},c_{2},c_{3}`$ 是 $`\lvert\psi\rangle`$ 在这三个基底方向上的分量。
 
 若这组基底是正交归一的，那么：
 
@@ -285,7 +285,7 @@ $$
 
 1. 基底和坐标有什么区别？
 2. 为什么同一个量子态可以有不同表示？
-3. 如果 $\lvert\psi\rangle = 2\lvert a\rangle - \lvert b\rangle$，这个态是否已经归一化？
+3. 如果 $`\lvert\psi\rangle = 2\lvert a\rangle - \lvert b\rangle`$，这个态是否已经归一化？
 4. 为什么归一化时要除以长度？
 
 ## 第 3 课：内积、长度、正交和归一化
@@ -420,7 +420,7 @@ $$
 \langle v \mid w \rangle = 0
 $$
 
-则 `v` 和 `w` 正交。
+则 $`v`$ 和 $`w`$ 正交。
 
 在量子力学中，正交常常表示两个状态可以被清楚区分。比如某个测量的两个不同结果对应两个正交本征态。
 
@@ -441,7 +441,7 @@ $$
 \langle i \mid j \rangle = \delta_{ij}
 $$
 
-这里 $\delta_{ij}$ 是 Kronecker delta：
+这里 $`\delta_{ij}`$ 是 Kronecker delta：
 
 $$
 \delta_{ij} =
@@ -473,8 +473,8 @@ $$
 1. 为什么复向量内积要取复共轭？
 2. 归一化的物理意义是什么？
 3. 正交是否只是“几何垂直”？在量子力学中还意味着什么？
-4. 若 $\lvert\psi\rangle = (1/2,\sqrt{3}/2)$，它是否归一化？
-5. 若 `v = (1, i)`，归一化后的向量是什么？
+4. 若 $`\lvert\psi\rangle = (1/2,\sqrt{3}/2)`$，它是否归一化？
+5. 若 $`v = (1, i)`$，归一化后的向量是什么？
 
 ## 第 4 课：线性算符和矩阵
 
@@ -490,7 +490,7 @@ $$
 
 普通语言：
 
-> $A$ 把状态 $\lvert\psi\rangle$ 变成状态 $\lvert\phi\rangle$。
+> $`A`$ 把状态 $`\lvert\psi\rangle`$ 变成状态 $`\lvert\phi\rangle`$。
 
 在有限维空间里，算符可以用矩阵表示。
 
@@ -507,7 +507,11 @@ $$
 例子：
 
 $$
-A = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}
+A =
+\begin{pmatrix}
+2 & 0 \\
+0 & 3
+\end{pmatrix}
 $$
 
 对：
@@ -531,20 +535,25 @@ $$
 那么：
 
 $$
-A(e_{1} + e_{2}) = Ae1 + Ae2 = (2,0) + (0,3) = (2,3)
+A(e_{1} + e_{2}) = Ae_1 + Ae_2 = (2,0) + (0,3) = (2,3)
 $$
 
 这就是线性。
 
 ### 4.3 矩阵乘法怎么读
 
-设：
+设矩阵 $`A`$ 和向量 $`v`$：
 
 $$
-\begin{gathered}
-A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \\
 v = (5, 6)
-\end{gathered}
+$$
+
+$$
+A =
+\begin{pmatrix}
+1 & 2 \\
+3 & 4
+\end{pmatrix}
 $$
 
 则：
@@ -582,7 +591,7 @@ $$
 
 则说它们对易。
 
-如果不对易，先做 `A` 再做 `B` 和先做 `B` 再做 `A` 不一样。
+如果不对易，先做 $`A`$ 再做 $`B`$ 和先做 $`B`$ 再做 $`A`$ 不一样。
 
 量子力学中，不对易是非常核心的现象。位置和动量算符不对易，这会导向不确定性关系。
 
@@ -591,35 +600,57 @@ $$
 设：
 
 $$
-\begin{gathered}
-A = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \\
-B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
-\end{gathered}
+A =
+\begin{pmatrix}
+1 & 0 \\
+0 & -1
+\end{pmatrix}
+$$
+
+$$
+B =
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}
 $$
 
 计算：
 
 $$
-\begin{gathered}
-AB = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} \\
-BA = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
-\end{gathered}
+AB =
+\begin{pmatrix}
+0 & 1 \\
+-1 & 0
+\end{pmatrix}
+$$
+
+$$
+BA =
+\begin{pmatrix}
+0 & -1 \\
+1 & 0
+\end{pmatrix}
 $$
 
 所以：
 
 $$
-[A,B] = AB - BA = \begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}
+[A,B] = AB - BA =
+\begin{pmatrix}
+0 & 2 \\
+-2 & 0
+\end{pmatrix}
 $$
 
 它们不对易。
 
 ### 第 4 课检查题
 
-1. $A\lvert \psi \rangle$ 用普通语言怎么读？
+1. $`A\lvert \psi \rangle`$ 用普通语言怎么读？
 2. 什么叫线性算符？
 3. 为什么矩阵表示依赖基底？
-4. `[A,B] = 0` 说明什么？
+4. $`[A,B] = 0`$ 说明什么？
 5. 如果两个操作先后顺序会改变结果，你觉得这在测量中可能意味着什么？
 
 ## 第 5 课：本征值和本征向量
@@ -632,16 +663,20 @@ $$
 A\lvert v \rangle = \lambda \lvert v \rangle
 $$
 
-那么 $\lvert v\rangle$ 是 $A$ 的本征向量，$\lambda$ 是本征值。
+那么 $`\lvert v\rangle`$ 是 $`A`$ 的本征向量，$`\lambda`$ 是本征值。
 
 普通语言：
 
-> $A$ 作用在 $\lvert v\rangle$ 上以后，没有改变 $\lvert v\rangle$ 的方向，只把它乘了一个数 $\lambda$。
+> $`A`$ 作用在 $`\lvert v\rangle`$ 上以后，没有改变 $`\lvert v\rangle`$ 的方向，只把它乘了一个数 $`\lambda`$。
 
 例子：
 
 $$
-A = \begin{pmatrix} 2 & 0 \\ 0 & 5 \end{pmatrix}
+A =
+\begin{pmatrix}
+2 & 0 \\
+0 & 5
+\end{pmatrix}
 $$
 
 对：
@@ -656,7 +691,7 @@ $$
 Ae_1 = (2, 0) = 2e_1
 $$
 
-所以 `e_{1}` 是本征向量，本征值是 `2`。
+所以 $`e_{1}`$ 是本征向量，本征值是 $`2`$。
 
 对：
 
@@ -670,7 +705,7 @@ $$
 Ae_2 = (0, 5) = 5e_2
 $$
 
-所以 `e_{2}` 是本征向量，本征值是 `5`。
+所以 $`e_{2}`$ 是本征向量，本征值是 $`5`$。
 
 ### 5.2 为什么量子力学特别重视本征值
 
@@ -684,20 +719,24 @@ $$
 > 本征值 -> 可能答案
 > 本征向量 -> 得到该答案时对应的特殊状态
 
-例如，如果能量算符 `H` 满足：
+例如，如果能量算符 $`H`$ 满足：
 
 $$
 H\lvert E_{n} \rangle = E_{n}\lvert E_{n} \rangle
 $$
 
-那么 $E_n$ 是一个允许的能量值，$\lvert E_n\rangle$ 是对应的能量本征态。
+那么 $`E_n`$ 是一个允许的能量值，$`\lvert E_n\rangle`$ 是对应的能量本征态。
 
 ### 5.3 怎样手算 2x2 本征值
 
 对矩阵：
 
 $$
-B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+B =
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}
 $$
 
 找满足：
@@ -727,12 +766,12 @@ $$
 x = \lambda(\lambda x) = \lambda^2 x
 $$
 
-若 `x` 不为 0，则：
+若 $`x`$ 不为 0，则：
 
-> lambda^2 = 1
-> lambda = 1 或 -1
+> $`\lambda^2=1`$
+> $`\lambda=1`$ 或 $`\lambda=-1`$
 
-当 `lambda = 1`：
+当 $`\lambda=1`$：
 
 $$
 y = x
@@ -750,7 +789,7 @@ $$
 (1/\sqrt{2})(1, 1)
 $$
 
-当 `lambda = -1`：
+当 $`\lambda=-1`$：
 
 $$
 y = -x
@@ -770,7 +809,7 @@ $$
 
 ### 5.4 本征基底就是“最适合某个问题的基底”
 
-如果你要讨论算符 `A` 对应的测量，那么 `A` 的本征向量基底通常是最自然的基底。
+如果你要讨论算符 $`A`$ 对应的测量，那么 $`A`$ 的本征向量基底通常是最自然的基底。
 
 因为在本征态上，算符作用最简单：
 
@@ -788,10 +827,10 @@ $$
 
 ### 第 5 课检查题
 
-1. $A\lvert v\rangle = \lambda\lvert v\rangle$ 用普通语言怎么说？
+1. $`A\lvert v\rangle = \lambda\lvert v\rangle`$ 用普通语言怎么说？
 2. 为什么本征向量不是随便一个向量？
 3. 对角矩阵的本征向量为什么容易看出来？
-4. 对 `B = [[0,1],[1,0]]`，本征值为什么是 `1` 和 `-1`？
+4. 对 $`B = [[0,1],[1,0]]`$，本征值为什么是 $`1`$ 和 $`-1`$？
 5. 在量子力学中，本征值预告了什么物理意义？
 
 ## 第 6 课：厄米、幺正、投影和无限维
@@ -808,12 +847,16 @@ $$
 A^\dagger = A
 $$
 
-则 `A` 是厄米算符。
+则 $`A`$ 是厄米算符。
 
 例子：
 
 $$
-A = \begin{pmatrix} 2 & 0 \\ 0 & 5 \end{pmatrix}
+A =
+\begin{pmatrix}
+2 & 0 \\
+0 & 5
+\end{pmatrix}
 $$
 
 它是厄米的。
@@ -821,7 +864,11 @@ $$
 再看：
 
 $$
-C = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
+C =
+\begin{pmatrix}
+0 & -i \\
+i & 0
+\end{pmatrix}
 $$
 
 它也是厄米的，因为转置并复共轭后仍回到自己。
@@ -841,7 +888,7 @@ $$
 U^\dagger U = I
 $$
 
-则 `U` 是幺正算符。
+则 $`U`$ 是幺正算符。
 
 它保持长度：
 
@@ -855,7 +902,7 @@ $$
 
 ### 6.3 投影算符：取出某个方向的分量
 
-假设 $\lvert n\rangle$ 是归一化向量。投影到 $\lvert n\rangle$ 方向的算符是：
+假设 $`\lvert n\rangle`$ 是归一化向量。投影到 $`\lvert n\rangle`$ 方向的算符是：
 
 $$
 P_{n} = \lvert n \rangle\langle n \rvert
@@ -873,7 +920,7 @@ $$
 \langle n \mid \psi \rangle
 $$
 
-就是 $\lvert \psi \rangle$ 在 $\lvert n\rangle$ 方向上的分量。
+就是 $`\lvert \psi \rangle`$ 在 $`\lvert n\rangle`$ 方向上的分量。
 
 例子：
 
@@ -969,8 +1016,8 @@ $$
 
 1. 为什么厄米算符适合表示可观测量？
 2. 为什么幺正算符适合表示时间演化？
-3. 投影算符 $\lvert n\rangle\langle n\rvert$ 做了什么？
-4. $\sum_n \lvert n\rangle\langle n\rvert = I$ 用普通语言怎么解释？
+3. 投影算符 $`\lvert n\rangle\langle n\rvert`$ 做了什么？
+4. $`\sum_n \lvert n\rangle\langle n\rvert = I`$ 用普通语言怎么解释？
 5. 为什么连续情形中求和会变成积分？
 
 ## 本章总复习
@@ -983,7 +1030,7 @@ $$
 
 意思：
 
-> 态 $\lvert\psi\rangle$ 在基底 $\lvert n\rangle$ 上展开，$c_n$ 是展开系数。
+> 态 $`\lvert\psi\rangle`$ 在基底 $`\lvert n\rangle`$ 上展开，$`c_n`$ 是展开系数。
 
 $$
 \langle \psi \mid \psi \rangle = 1
@@ -999,7 +1046,7 @@ $$
 
 意思：
 
-> $\lvert a_n\rangle$ 是算符 $A$ 的本征态，$a_n$ 是对应本征值。
+> $`\lvert a_n\rangle`$ 是算符 $`A`$ 的本征态，$`a_n`$ 是对应本征值。
 
 $$
 P_{n} = \lvert n \rangle\langle n \rvert
@@ -1007,7 +1054,7 @@ $$
 
 意思：
 
-> $P_n$ 是投影到 $\lvert n\rangle$ 方向的算符。
+> $`P_n`$ 是投影到 $`\lvert n\rangle`$ 方向的算符。
 
 $$
 U^\dagger U = I
@@ -1064,7 +1111,11 @@ $$
 给定：
 
 $$
-A = \begin{pmatrix} 3 & 0 \\ 0 & -2 \end{pmatrix}
+A =
+\begin{pmatrix}
+3 & 0 \\
+0 & -2
+\end{pmatrix}
 $$
 
 求本征值和对应本征向量。
@@ -1074,7 +1125,11 @@ $$
 给定：
 
 $$
-B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+B =
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}
 $$
 
 验证：
@@ -1149,7 +1204,7 @@ A(0,1) = -2(0,1)
 \end{gathered}
 $$
 
-本征值为 `3` 和 `-2`，对应本征向量可取 `(1,0)` 和 `(0,1)`。
+本征值为 $`3`$ 和 $`-2`$，对应本征向量可取 $`(1,0)`$ 和 $`(0,1)`$。
 
 ### D
 
@@ -1165,7 +1220,7 @@ $$
 Bu_+ = u_+
 $$
 
-本征值为 `1`。
+本征值为 $`1`$。
 
 对：
 
@@ -1179,17 +1234,17 @@ $$
 Bu_- = -u_-
 $$
 
-本征值为 `-1`。
+本征值为 $`-1`$。
 
 ### E
 
-投影到 `(1,0)` 方向，只保留第一个分量：
+投影到 $`(1,0)`$ 方向，只保留第一个分量：
 
 $$
 P_{n}\lvert \psi \rangle = (3/5, 0)
 $$
 
-这表示态在 $\lvert n\rangle$ 方向上的部分。对应概率是：
+这表示态在 $`\lvert n\rangle`$ 方向上的部分。对应概率是：
 
 $$
 \lvert 3/5\rvert^2 = 9/25
